@@ -1,5 +1,4 @@
 # Load packages
-library(DESeq2)
 library(ggplot2)
 library(dplyr)
 library(tibble)
@@ -25,6 +24,9 @@ library("factoextra")
 library("VennDiagram")
 library("patchwork")
 library(sva)
+library(variancePartition)
+library(edgeR)
+library(limma)
 
 
 #setwd("E:/Users/amurgueitio/Documents/Multistage_omics/R scripts/M. capitata/New_genome/fixed_gff")
@@ -73,7 +75,7 @@ treatmentinfo$timepoint <- factor(treatmentinfo$timepoint, levels = c("I","II","
 #Create a DESeqDataSet design from gene count matrix and labels. Here we set the design to look at 
 #any differences in gene expression across samples attributed to life stage
 
-# Creating an alignment rate table
+# Create alignment table
 alignment_table <- tribble(
   ~SampleID, ~SRR, ~AlignRate,
   "AH1", "SRR14864072", 73.0,
@@ -87,22 +89,208 @@ alignment_table <- tribble(
   "AH9", "SRR14864064", 63.4
 )
 
-# Merge alignment rates into your existing sample metadata
+# Merge AlignRate into treatmentinfo
 treatmentinfo <- treatmentinfo %>%
   left_join(alignment_table, by = c("sampleID" = "SampleID"))
 
-#Correction based on TINS
 # Load TIN data
 tin_data <- read.table("multiqc_tin.txt", header = TRUE)
 
-# Rename column for clarity
+# Rename columns
 colnames(tin_data) <- c("SRR", "TIN")
 
-tin_data <- left_join(tin_data, alignment_table, by = "SRR")  # Adds SampleID column
+# Merge TIN with alignment_table to get SampleID
+tin_data <- tin_data %>%
+  left_join(alignment_table %>% select(SRR, SampleID), by = "SRR")
 
-treatmentinfo <- left_join(treatmentinfo, tin_data, by = c("sampleID" = "SampleID"))
+# Now merge TIN into treatmentinfo
+treatmentinfo <- treatmentinfo %>%
+  left_join(tin_data %>% select(SampleID, TIN), by = c("sampleID" = "SampleID"))
 
+# Now scale TIN
 treatmentinfo$TIN_scaled <- scale(treatmentinfo$TIN)
+
+
+rna_quality <- tribble(
+  ~SampleID, ~TotalRNA, ~RIN, ~RNA_260_230, ~RNA_260_280,
+  "AH1", 28.7, 8.4, 0.3, 1.88,
+  "AH2", 45.4, 9.2, 0.37, 2.06,
+  "AH3", 27.8, 8.5, 0.9, 1.75,
+  "AH4", 32.3, 8.6, 1.16, 1.85,
+  "AH5", 32.3, 8.9, 0.65, 1.90,
+  "AH6", 30.8, 8.7, 1.18, 1.87,
+  "AH7", 26.4, 6.1, 1.05, 1.87,
+  "AH8", 56.3, 7.4, 1.28, 1.96,
+  "AH9", 41.8, 6.8, 0.22, 1.99
+)
+
+treatmentinfo <- treatmentinfo %>%
+  left_join(rna_quality, by = c("sampleID" = "SampleID"))
+
+treatmentinfo <- treatmentinfo %>%
+  mutate(
+    RIN_scaled = scale(RIN),
+    RNA_260_230_scaled = scale(RNA_260_230),
+    RNA_260_280_scaled = scale(RNA_260_280),
+    TotalRNA_scaled = scale(TotalRNA)
+  )
+
+treatmentinfo <- treatmentinfo %>%
+  mutate(AlignRate_scaled = scale(AlignRate))
+
+
+#Testing for multicolinearity
+
+covariates <- treatmentinfo %>%
+  select(RIN_scaled, RNA_260_230_scaled, RNA_260_280_scaled,
+         TotalRNA_scaled, TIN_scaled, AlignRate_scaled)
+
+cor_matrix <- cor(covariates, use = "complete.obs")
+round(cor_matrix, 2)
+
+library(corrplot)
+corrplot(cor_matrix, method = "color", type = "upper", tl.col = "black")
+
+treatmentinfo %>%
+  select(TIN_scaled, RNA_260_230_scaled, RNA_260_280_scaled, TotalRNA_scaled) %>%
+  cor(use = "complete.obs") %>%
+  round(2)
+
+#Testing with TPM
+
+library(GenomicFeatures)
+
+library(rtracklayer)
+
+
+# Path to your GFF3 file
+gff_path <- "Montipora_capitata_HIv3.genes.gff3"
+
+# Import GFF for ID mapping
+gff <- import(gff_path)
+
+# Create TxDb object from GFF
+txdb <- makeTxDbFromGFF(gff_path, format = "gff3")
+
+
+gff <- import("Montipora_capitata_HIv3.genes.gff3")
+
+table(gff$type)
+
+# Load GFF3 and build TxDb
+txdb <- makeTxDbFromGFF("Montipora_capitata_HIv3.genes.gff3", format = "gff3")
+
+# Step 2: Get exons grouped by transcript
+exons_by_tx <- exonsBy(txdb, by = "tx")
+
+reduced_exons <- GenomicRanges::reduce(exons_by_tx)
+
+tx_lengths <- sum(width(reduced_exons))
+
+colnames(mcols(transcripts))
+#[1] "source" "type"   "score"  "phase"  "ID"     "Parent"
+transcripts$transcript_id <- transcripts$ID
+
+txdb_ids <- names(tx_lengths)
+
+# Add proper transcript IDs (already present)
+transcripts$transcript_id <- transcripts$ID
+
+# Add txdb-style internal IDs (for matching tx_lengths)
+transcripts$txdb_id <- as.character(seq_len(length(transcripts)))
+
+# tx_lengths from earlier: named vector from exonsBy(txdb, by = "tx")
+txdb_ids <- names(tx_lengths)
+
+# Build transcript ID mapping
+transcript_map <- data.frame(
+  txdb_id = transcripts$txdb_id,
+  transcript_id = transcripts$transcript_id
+)
+
+# Combine lengths with transcript IDs
+tx_length_df <- data.frame(
+  txdb_id = txdb_ids,
+  length = as.numeric(tx_lengths)
+)
+
+# Merge the two
+length_df <- merge(tx_length_df, transcript_map, by = "txdb_id")
+
+# Final clean length table
+length_df <- length_df[, c("transcript_id", "length")]
+
+exons_tx <- exons_by_tx[["1"]]  # Or whatever the txdb ID is for that transcript
+exons_tx
+
+
+length_vector <- setNames(length_df$length, length_df$transcript_id)
+
+matched_lengths <- length_vector[rownames(gcount_filt)]
+
+# Optional: check for any missing IDs
+sum(is.na(matched_lengths))  # Should be 0 ideally
+#0 :)
+
+counts_to_tpm <- function(counts, lengths) {
+  rate <- counts / lengths
+  tpm <- t(t(rate) / colSums(rate)) * 1e6
+  return(tpm)
+}
+
+tpm_matrix <- counts_to_tpm(gcount_filt, matched_lengths)
+
+log_tpm <- log2(tpm_matrix + 1)
+
+
+# Calculate variance for each gene/transcript across samples
+gene_vars <- apply(log_tpm, 1, var)
+
+# Select top 500 (or 1000, or 2000)
+top_genes <- head(order(gene_vars, decreasing = TRUE), 25741)
+
+# Subset log_tpm
+top_log_tpm <- log_tpm[top_genes, ]
+
+# Transpose for PCA (samples as rows)
+pca_res <- prcomp(t(top_log_tpm), scale. = TRUE)
+
+pca_df <- as.data.frame(pca_res$x)
+pca_df$sampleID <- rownames(pca_df)
+
+# Join metadata
+library(dplyr)
+pca_df <- left_join(pca_df, treatmentinfo, by = "sampleID")
+
+# Calculate % variance
+percent_var <- round(100 * summary(pca_res)$importance[2, 1:2], 1)
+
+library(ggplot2)
+ggplot(pca_df, aes(PC1, PC2, color = timepoint, shape = timepoint)) +
+  geom_point(size = 5) +
+  xlab(paste0("PC1: ", percent_var[1], "% variance")) +
+  ylab(paste0("PC2: ", percent_var[2], "% variance")) +
+  coord_fixed() +
+  theme_classic() +
+  ggtitle("PCA on log2(TPM + 1)")
+
+
+tpm_pca <- prcomp(t(log_tpm), scale. = TRUE)
+
+pca_df <- as.data.frame(tpm_pca$x)
+pca_df$sampleID <- rownames(pca_df)
+
+library(dplyr)
+pca_df <- left_join(pca_df, treatmentinfo, by = "sampleID")
+
+library(ggplot2)
+ggplot(pca_df, aes(PC1, PC2, color = timepoint, shape = timepoint)) +
+  geom_point(size = 5) +
+  xlab(paste0("PC1: ", round(summary(tpm_pca)$importance[2,1] * 100, 1), "% variance")) +
+  ylab(paste0("PC2: ", round(summary(tpm_pca)$importance[2,2] * 100, 1), "% variance")) +
+  theme_classic() +
+  ggtitle("PCA on TPM (log2(TPM + 1))")
+
 
 #Note, this only includes covariates in the model for VST, for an actual correction there's need to residualize the data
 

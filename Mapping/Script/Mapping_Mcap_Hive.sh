@@ -58,10 +58,10 @@ mkdir -p "$OUTDIR"
 
 # Download + Convert loop
 for SRR in "${SRR_LIST[@]}"; do
-    echo "📥 Downloading $SRR..."
+    echo " Downloading $SRR..."
     prefetch "$SRR"
 
-    echo "🔄 Converting $SRR to FASTQ..."
+    echo "Converting $SRR to FASTQ..."
     fasterq-dump "$SRR" --threads 4 --progress --outdir "$OUTDIR"
 done
 
@@ -75,7 +75,7 @@ conda activate Mcap #if not already activated
 cd fastqreads
 md5sum *.fastq > raw_checksum.md5
 
-(Mcap) [I have no name!@bee77 fastqreads]$ md5sum -c raw_checksum.md5 #check it's OK for all files
+md5sum -c raw_checksum.md5 #check it's OK for all files
 SRR14864064_1.fastq: OK
 SRR14864064_2.fastq: OK
 SRR14864065_1.fastq: OK

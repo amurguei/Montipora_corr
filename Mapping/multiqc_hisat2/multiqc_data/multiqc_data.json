@@ -1,0 +1,3203 @@
+{
+    "report_multiqc_command": "/lustre1/home/mass/amalia/.conda/envs/Mcap/bin/multiqc /lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2 -o /lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/outputs/multiqc_hisat2",
+    "report_data_sources": {
+        "Bowtie 2 / HiSAT2": {
+            "all_sections": {
+                "SRR14864064_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR14864064_hisat2.log",
+                "SRR14864065_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR14864065_hisat2.log",
+                "SRR14864066_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR14864066_hisat2.log",
+                "SRR14864067_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR14864067_hisat2.log",
+                "SRR14864068_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR14864068_hisat2.log",
+                "SRR14864069_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR14864069_hisat2.log",
+                "SRR14864070_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR14864070_hisat2.log",
+                "SRR14864071_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR14864071_hisat2.log",
+                "SRR14864072_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR14864072_hisat2.log",
+                "SRR22293445_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293445_hisat2.log",
+                "SRR22293446_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293446_hisat2.log",
+                "SRR22293447_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293447_hisat2.log",
+                "SRR22293448_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293448_hisat2.log",
+                "SRR22293449_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293449_hisat2.log",
+                "SRR22293450_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293450_hisat2.log",
+                "SRR22293451_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293451_hisat2.log",
+                "SRR22293452_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293452_hisat2.log",
+                "SRR22293453_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293453_hisat2.log",
+                "SRR22293454_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293454_hisat2.log",
+                "SRR22293455_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293455_hisat2.log",
+                "SRR22293456_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293456_hisat2.log",
+                "SRR22293457_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293457_hisat2.log",
+                "SRR22293458_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293458_hisat2.log",
+                "SRR22293459_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293459_hisat2.log",
+                "SRR22293460_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293460_hisat2.log",
+                "SRR22293461_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293461_hisat2.log",
+                "SRR22293462_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293462_hisat2.log",
+                "SRR22293463_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293463_hisat2.log",
+                "SRR22293464_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293464_hisat2.log",
+                "SRR22293465_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293465_hisat2.log",
+                "SRR22293466_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293466_hisat2.log",
+                "SRR22293467_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293467_hisat2.log",
+                "SRR22293468_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293468_hisat2.log",
+                "SRR22293469_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293469_hisat2.log",
+                "SRR22293470_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293470_hisat2.log",
+                "SRR22293471_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293471_hisat2.log",
+                "SRR22293472_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293472_hisat2.log",
+                "SRR22293473_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293473_hisat2.log",
+                "SRR22293474_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293474_hisat2.log",
+                "SRR22293475_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293475_hisat2.log",
+                "SRR22293476_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293476_hisat2.log",
+                "SRR22293477_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293477_hisat2.log",
+                "SRR22293478_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293478_hisat2.log",
+                "SRR22293479_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293479_hisat2.log",
+                "SRR22293480_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293480_hisat2.log",
+                "SRR22293481_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293481_hisat2.log",
+                "SRR22293482_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293482_hisat2.log",
+                "SRR22293483_hisat2": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2/SRR22293483_hisat2.log"
+            }
+        }
+    },
+    "report_general_stats_data": {
+        "bowtie2": {
+            "SRR14864064_hisat2": {
+                "total_reads": 47911876,
+                "paired_total": 47911876,
+                "paired_aligned_none": 19457263,
+                "paired_aligned_one": 25328585,
+                "paired_aligned_multi": 3126028,
+                "paired_aligned_discord_one": 66452,
+                "paired_aligned_mate_none": 36099409,
+                "paired_aligned_mate_one": 2390291,
+                "paired_aligned_mate_multi": 291922,
+                "overall_alignment_rate": 62.33,
+                "paired_aligned_mate_multi_halved": 145961.0,
+                "paired_aligned_mate_none_halved": 18049704.5,
+                "paired_aligned_mate_one_halved": 1195145.5
+            },
+            "SRR14864065_hisat2": {
+                "total_reads": 41195964,
+                "paired_total": 41195964,
+                "paired_aligned_none": 16277627,
+                "paired_aligned_one": 21476749,
+                "paired_aligned_multi": 3441588,
+                "paired_aligned_discord_one": 62359,
+                "paired_aligned_mate_none": 29722651,
+                "paired_aligned_mate_one": 2350067,
+                "paired_aligned_mate_multi": 357818,
+                "overall_alignment_rate": 63.93,
+                "paired_aligned_mate_multi_halved": 178909.0,
+                "paired_aligned_mate_none_halved": 14861325.5,
+                "paired_aligned_mate_one_halved": 1175033.5
+            },
+            "SRR14864066_hisat2": {
+                "total_reads": 44334294,
+                "paired_total": 44334294,
+                "paired_aligned_none": 24732923,
+                "paired_aligned_one": 17190609,
+                "paired_aligned_multi": 2410762,
+                "paired_aligned_discord_one": 53105,
+                "paired_aligned_mate_none": 47040577,
+                "paired_aligned_mate_one": 2053476,
+                "paired_aligned_mate_multi": 265583,
+                "overall_alignment_rate": 46.95,
+                "paired_aligned_mate_multi_halved": 132791.5,
+                "paired_aligned_mate_none_halved": 23520288.5,
+                "paired_aligned_mate_one_halved": 1026738.0
+            },
+            "SRR14864067_hisat2": {
+                "total_reads": 40811130,
+                "paired_total": 40811130,
+                "paired_aligned_none": 13052723,
+                "paired_aligned_one": 25709520,
+                "paired_aligned_multi": 2048887,
+                "paired_aligned_discord_one": 90524,
+                "paired_aligned_mate_none": 23293451,
+                "paired_aligned_mate_one": 2403121,
+                "paired_aligned_mate_multi": 227826,
+                "overall_alignment_rate": 71.46,
+                "paired_aligned_mate_multi_halved": 113913.0,
+                "paired_aligned_mate_none_halved": 11646725.5,
+                "paired_aligned_mate_one_halved": 1201560.5
+            },
+            "SRR14864068_hisat2": {
+                "total_reads": 34641040,
+                "paired_total": 34641040,
+                "paired_aligned_none": 11377426,
+                "paired_aligned_one": 21605607,
+                "paired_aligned_multi": 1658007,
+                "paired_aligned_discord_one": 80413,
+                "paired_aligned_mate_none": 20407250,
+                "paired_aligned_mate_one": 2000480,
+                "paired_aligned_mate_multi": 186296,
+                "overall_alignment_rate": 70.54,
+                "paired_aligned_mate_multi_halved": 93148.0,
+                "paired_aligned_mate_none_halved": 10203625.0,
+                "paired_aligned_mate_one_halved": 1000240.0
+            },
+            "SRR14864069_hisat2": {
+                "total_reads": 36008389,
+                "paired_total": 36008389,
+                "paired_aligned_none": 9108714,
+                "paired_aligned_one": 24983867,
+                "paired_aligned_multi": 1915808,
+                "paired_aligned_discord_one": 87220,
+                "paired_aligned_mate_none": 15617397,
+                "paired_aligned_mate_one": 2224645,
+                "paired_aligned_mate_multi": 200946,
+                "overall_alignment_rate": 78.31,
+                "paired_aligned_mate_multi_halved": 100473.0,
+                "paired_aligned_mate_none_halved": 7808698.5,
+                "paired_aligned_mate_one_halved": 1112322.5
+            },
+            "SRR14864070_hisat2": {
+                "total_reads": 36147614,
+                "paired_total": 36147614,
+                "paired_aligned_none": 8404036,
+                "paired_aligned_one": 25761567,
+                "paired_aligned_multi": 1982011,
+                "paired_aligned_discord_one": 91224,
+                "paired_aligned_mate_none": 14095564,
+                "paired_aligned_mate_one": 2313677,
+                "paired_aligned_mate_multi": 216383,
+                "overall_alignment_rate": 80.5,
+                "paired_aligned_mate_multi_halved": 108191.5,
+                "paired_aligned_mate_none_halved": 7047782.0,
+                "paired_aligned_mate_one_halved": 1156838.5
+            },
+            "SRR14864071_hisat2": {
+                "total_reads": 38819722,
+                "paired_total": 38819722,
+                "paired_aligned_none": 9187835,
+                "paired_aligned_one": 26503376,
+                "paired_aligned_multi": 3128511,
+                "paired_aligned_discord_one": 77774,
+                "paired_aligned_mate_none": 15970489,
+                "paired_aligned_mate_one": 2022244,
+                "paired_aligned_mate_multi": 227389,
+                "overall_alignment_rate": 79.43,
+                "paired_aligned_mate_multi_halved": 113694.5,
+                "paired_aligned_mate_none_halved": 7985244.5,
+                "paired_aligned_mate_one_halved": 1011122.0
+            },
+            "SRR14864072_hisat2": {
+                "total_reads": 35470851,
+                "paired_total": 35470851,
+                "paired_aligned_none": 10955935,
+                "paired_aligned_one": 22688187,
+                "paired_aligned_multi": 1826729,
+                "paired_aligned_discord_one": 53804,
+                "paired_aligned_mate_none": 20056119,
+                "paired_aligned_mate_one": 1601708,
+                "paired_aligned_mate_multi": 146435,
+                "overall_alignment_rate": 71.73,
+                "paired_aligned_mate_multi_halved": 73217.5,
+                "paired_aligned_mate_none_halved": 10028059.5,
+                "paired_aligned_mate_one_halved": 800854.0
+            },
+            "SRR22293445_hisat2": {
+                "total_reads": 3912256,
+                "unpaired_total": 3912256,
+                "unpaired_aligned_none": 1693044,
+                "unpaired_aligned_one": 1686820,
+                "unpaired_aligned_multi": 532392,
+                "overall_alignment_rate": 56.72
+            },
+            "SRR22293446_hisat2": {
+                "total_reads": 4147038,
+                "unpaired_total": 4147038,
+                "unpaired_aligned_none": 1893410,
+                "unpaired_aligned_one": 1717248,
+                "unpaired_aligned_multi": 536380,
+                "overall_alignment_rate": 54.34
+            },
+            "SRR22293447_hisat2": {
+                "total_reads": 4573097,
+                "unpaired_total": 4573097,
+                "unpaired_aligned_none": 1919967,
+                "unpaired_aligned_one": 1939477,
+                "unpaired_aligned_multi": 713653,
+                "overall_alignment_rate": 58.02
+            },
+            "SRR22293448_hisat2": {
+                "total_reads": 4216685,
+                "unpaired_total": 4216685,
+                "unpaired_aligned_none": 1610964,
+                "unpaired_aligned_one": 1968042,
+                "unpaired_aligned_multi": 637679,
+                "overall_alignment_rate": 61.8
+            },
+            "SRR22293449_hisat2": {
+                "total_reads": 4192449,
+                "unpaired_total": 4192449,
+                "unpaired_aligned_none": 1777322,
+                "unpaired_aligned_one": 1725953,
+                "unpaired_aligned_multi": 689174,
+                "overall_alignment_rate": 57.61
+            },
+            "SRR22293450_hisat2": {
+                "total_reads": 4471607,
+                "unpaired_total": 4471607,
+                "unpaired_aligned_none": 1858099,
+                "unpaired_aligned_one": 1929819,
+                "unpaired_aligned_multi": 683689,
+                "overall_alignment_rate": 58.45
+            },
+            "SRR22293451_hisat2": {
+                "total_reads": 5265376,
+                "unpaired_total": 5265376,
+                "unpaired_aligned_none": 2397448,
+                "unpaired_aligned_one": 2349179,
+                "unpaired_aligned_multi": 518749,
+                "overall_alignment_rate": 54.47
+            },
+            "SRR22293452_hisat2": {
+                "total_reads": 4194896,
+                "unpaired_total": 4194896,
+                "unpaired_aligned_none": 2066898,
+                "unpaired_aligned_one": 1672180,
+                "unpaired_aligned_multi": 455818,
+                "overall_alignment_rate": 50.73
+            },
+            "SRR22293453_hisat2": {
+                "total_reads": 6038305,
+                "unpaired_total": 6038305,
+                "unpaired_aligned_none": 3138951,
+                "unpaired_aligned_one": 2273349,
+                "unpaired_aligned_multi": 626005,
+                "overall_alignment_rate": 48.02
+            },
+            "SRR22293454_hisat2": {
+                "total_reads": 3802231,
+                "unpaired_total": 3802231,
+                "unpaired_aligned_none": 1925709,
+                "unpaired_aligned_one": 1506685,
+                "unpaired_aligned_multi": 369837,
+                "overall_alignment_rate": 49.35
+            },
+            "SRR22293455_hisat2": {
+                "total_reads": 4641782,
+                "unpaired_total": 4641782,
+                "unpaired_aligned_none": 2450877,
+                "unpaired_aligned_one": 1788489,
+                "unpaired_aligned_multi": 402416,
+                "overall_alignment_rate": 47.2
+            },
+            "SRR22293456_hisat2": {
+                "total_reads": 4610617,
+                "unpaired_total": 4610617,
+                "unpaired_aligned_none": 2299947,
+                "unpaired_aligned_one": 1872561,
+                "unpaired_aligned_multi": 438109,
+                "overall_alignment_rate": 50.12
+            },
+            "SRR22293457_hisat2": {
+                "total_reads": 4808411,
+                "unpaired_total": 4808411,
+                "unpaired_aligned_none": 2553510,
+                "unpaired_aligned_one": 1860624,
+                "unpaired_aligned_multi": 394277,
+                "overall_alignment_rate": 46.89
+            },
+            "SRR22293458_hisat2": {
+                "total_reads": 3559843,
+                "unpaired_total": 3559843,
+                "unpaired_aligned_none": 1425406,
+                "unpaired_aligned_one": 1042576,
+                "unpaired_aligned_multi": 1091861,
+                "overall_alignment_rate": 59.96
+            },
+            "SRR22293459_hisat2": {
+                "total_reads": 3453116,
+                "unpaired_total": 3453116,
+                "unpaired_aligned_none": 1512408,
+                "unpaired_aligned_one": 924969,
+                "unpaired_aligned_multi": 1015739,
+                "overall_alignment_rate": 56.2
+            },
+            "SRR22293460_hisat2": {
+                "total_reads": 4273390,
+                "unpaired_total": 4273390,
+                "unpaired_aligned_none": 2013962,
+                "unpaired_aligned_one": 1175521,
+                "unpaired_aligned_multi": 1083907,
+                "overall_alignment_rate": 52.87
+            },
+            "SRR22293461_hisat2": {
+                "total_reads": 5078534,
+                "unpaired_total": 5078534,
+                "unpaired_aligned_none": 2065927,
+                "unpaired_aligned_one": 1614242,
+                "unpaired_aligned_multi": 1398365,
+                "overall_alignment_rate": 59.32
+            },
+            "SRR22293462_hisat2": {
+                "total_reads": 4946648,
+                "unpaired_total": 4946648,
+                "unpaired_aligned_none": 1804148,
+                "unpaired_aligned_one": 1591579,
+                "unpaired_aligned_multi": 1550921,
+                "overall_alignment_rate": 63.53
+            },
+            "SRR22293463_hisat2": {
+                "total_reads": 5005918,
+                "unpaired_total": 5005918,
+                "unpaired_aligned_none": 2026993,
+                "unpaired_aligned_one": 1457601,
+                "unpaired_aligned_multi": 1521324,
+                "overall_alignment_rate": 59.51
+            },
+            "SRR22293464_hisat2": {
+                "total_reads": 4415139,
+                "unpaired_total": 4415139,
+                "unpaired_aligned_none": 1949256,
+                "unpaired_aligned_one": 1938718,
+                "unpaired_aligned_multi": 527165,
+                "overall_alignment_rate": 55.85
+            },
+            "SRR22293465_hisat2": {
+                "total_reads": 4252358,
+                "unpaired_total": 4252358,
+                "unpaired_aligned_none": 1896434,
+                "unpaired_aligned_one": 1304724,
+                "unpaired_aligned_multi": 1051200,
+                "overall_alignment_rate": 55.4
+            },
+            "SRR22293466_hisat2": {
+                "total_reads": 4057808,
+                "unpaired_total": 4057808,
+                "unpaired_aligned_none": 1769348,
+                "unpaired_aligned_one": 1893170,
+                "unpaired_aligned_multi": 395290,
+                "overall_alignment_rate": 56.4
+            },
+            "SRR22293467_hisat2": {
+                "total_reads": 3882595,
+                "unpaired_total": 3882595,
+                "unpaired_aligned_none": 1924552,
+                "unpaired_aligned_one": 1540103,
+                "unpaired_aligned_multi": 417940,
+                "overall_alignment_rate": 50.43
+            },
+            "SRR22293468_hisat2": {
+                "total_reads": 3846188,
+                "unpaired_total": 3846188,
+                "unpaired_aligned_none": 1632356,
+                "unpaired_aligned_one": 1670698,
+                "unpaired_aligned_multi": 543134,
+                "overall_alignment_rate": 57.56
+            },
+            "SRR22293469_hisat2": {
+                "total_reads": 3288217,
+                "unpaired_total": 3288217,
+                "unpaired_aligned_none": 1234921,
+                "unpaired_aligned_one": 1683551,
+                "unpaired_aligned_multi": 369745,
+                "overall_alignment_rate": 62.44
+            },
+            "SRR22293470_hisat2": {
+                "total_reads": 4315278,
+                "unpaired_total": 4315278,
+                "unpaired_aligned_none": 1744512,
+                "unpaired_aligned_one": 2086726,
+                "unpaired_aligned_multi": 484040,
+                "overall_alignment_rate": 59.57
+            },
+            "SRR22293471_hisat2": {
+                "total_reads": 4632102,
+                "unpaired_total": 4632102,
+                "unpaired_aligned_none": 2110244,
+                "unpaired_aligned_one": 1358035,
+                "unpaired_aligned_multi": 1163823,
+                "overall_alignment_rate": 54.44
+            },
+            "SRR22293472_hisat2": {
+                "total_reads": 4227006,
+                "unpaired_total": 4227006,
+                "unpaired_aligned_none": 1649698,
+                "unpaired_aligned_one": 2094524,
+                "unpaired_aligned_multi": 482784,
+                "overall_alignment_rate": 60.97
+            },
+            "SRR22293473_hisat2": {
+                "total_reads": 4190874,
+                "unpaired_total": 4190874,
+                "unpaired_aligned_none": 2227900,
+                "unpaired_aligned_one": 854124,
+                "unpaired_aligned_multi": 1108850,
+                "overall_alignment_rate": 46.84
+            },
+            "SRR22293474_hisat2": {
+                "total_reads": 3720265,
+                "unpaired_total": 3720265,
+                "unpaired_aligned_none": 1646140,
+                "unpaired_aligned_one": 1699069,
+                "unpaired_aligned_multi": 375056,
+                "overall_alignment_rate": 55.75
+            },
+            "SRR22293475_hisat2": {
+                "total_reads": 5374071,
+                "unpaired_total": 5374071,
+                "unpaired_aligned_none": 2418684,
+                "unpaired_aligned_one": 2258593,
+                "unpaired_aligned_multi": 696794,
+                "overall_alignment_rate": 54.99
+            },
+            "SRR22293476_hisat2": {
+                "total_reads": 4366753,
+                "unpaired_total": 4366753,
+                "unpaired_aligned_none": 2002506,
+                "unpaired_aligned_one": 1742929,
+                "unpaired_aligned_multi": 621318,
+                "overall_alignment_rate": 54.14
+            },
+            "SRR22293477_hisat2": {
+                "total_reads": 4941944,
+                "unpaired_total": 4941944,
+                "unpaired_aligned_none": 2104836,
+                "unpaired_aligned_one": 2097075,
+                "unpaired_aligned_multi": 740033,
+                "overall_alignment_rate": 57.41
+            },
+            "SRR22293478_hisat2": {
+                "total_reads": 3703427,
+                "unpaired_total": 3703427,
+                "unpaired_aligned_none": 1605092,
+                "unpaired_aligned_one": 1609805,
+                "unpaired_aligned_multi": 488530,
+                "overall_alignment_rate": 56.66
+            },
+            "SRR22293479_hisat2": {
+                "total_reads": 5039616,
+                "unpaired_total": 5039616,
+                "unpaired_aligned_none": 2124554,
+                "unpaired_aligned_one": 2216857,
+                "unpaired_aligned_multi": 698205,
+                "overall_alignment_rate": 57.84
+            },
+            "SRR22293480_hisat2": {
+                "total_reads": 4333042,
+                "unpaired_total": 4333042,
+                "unpaired_aligned_none": 1873991,
+                "unpaired_aligned_one": 1241890,
+                "unpaired_aligned_multi": 1217161,
+                "overall_alignment_rate": 56.75
+            },
+            "SRR22293481_hisat2": {
+                "total_reads": 3660011,
+                "unpaired_total": 3660011,
+                "unpaired_aligned_none": 1500348,
+                "unpaired_aligned_one": 1628168,
+                "unpaired_aligned_multi": 531495,
+                "overall_alignment_rate": 59.01
+            },
+            "SRR22293482_hisat2": {
+                "total_reads": 4465781,
+                "unpaired_total": 4465781,
+                "unpaired_aligned_none": 2193125,
+                "unpaired_aligned_one": 1254349,
+                "unpaired_aligned_multi": 1018307,
+                "overall_alignment_rate": 50.89
+            },
+            "SRR22293483_hisat2": {
+                "total_reads": 4595922,
+                "unpaired_total": 4595922,
+                "unpaired_aligned_none": 2314483,
+                "unpaired_aligned_one": 1147159,
+                "unpaired_aligned_multi": 1134280,
+                "overall_alignment_rate": 49.64
+            }
+        }
+    },
+    "report_general_stats_headers": {
+        "bowtie2": {
+            "overall_alignment_rate": {
+                "title": "% Aligned",
+                "description": "overall alignment rate",
+                "max": 100,
+                "min": 0,
+                "suffix": "%",
+                "scale": "YlGn",
+                "namespace": "Bowtie 2 / HiSAT2",
+                "clean_rid": "bowtie_2_hisat2-overall_alignment_rate",
+                "rid": "bowtie_2_hisat2-overall_alignment_rate",
+                "placement": 1000
+            }
+        }
+    },
+    "report_creation_date": "2025-08-10, 11:37 IDT",
+    "report_plot_data": {
+        "bowtie2_se_plot": {
+            "id": "bowtie2_se_plot",
+            "anchor": "bowtie2_se_plot",
+            "plot_type": "bar plot",
+            "layout": {
+                "autosize": true,
+                "colorway": [
+                    "#7cb5ec",
+                    "#434348",
+                    "#90ed7d",
+                    "#f7a35c",
+                    "#8085e9",
+                    "#f15c80",
+                    "#e4d354",
+                    "#2b908f",
+                    "#f45b5b",
+                    "#91e8e1"
+                ],
+                "font": {
+                    "family": "'Lucida Grande', 'Open Sans', verdana, arial, sans-serif"
+                },
+                "height": 725,
+                "hoverlabel": {
+                    "namelength": -1,
+                    "bgcolor": "rgba(255, 255, 255, 0.8)",
+                    "font": {
+                        "color": "black"
+                    }
+                },
+                "margin": {
+                    "b": 65,
+                    "l": 60,
+                    "pad": 5,
+                    "r": 15,
+                    "t": 50
+                },
+                "modebar": {
+                    "activecolor": "rgba(0, 0, 0, 1)",
+                    "bgcolor": "rgba(0, 0, 0, 0)",
+                    "color": "rgba(0, 0, 0, 0.5)"
+                },
+                "paper_bgcolor": "white",
+                "plot_bgcolor": "white",
+                "showlegend": true,
+                "title": {
+                    "font": {
+                        "size": 20
+                    },
+                    "text": "Bowtie 2: SE Alignment Scores",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)"
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)",
+                    "showgrid": false,
+                    "categoryorder": "trace",
+                    "type": "category"
+                },
+                "barmode": "relative",
+                "bargroupgap": 0,
+                "bargap": 0.2,
+                "legend": {
+                    "tracegroupgap": 0,
+                    "traceorder": "normal"
+                },
+                "hovermode": "y unified"
+            },
+            "datasets": [
+                {
+                    "plot_id": "bowtie2_se_plot",
+                    "label": "1",
+                    "uid": "bowtie2_se_plot",
+                    "dconfig": {
+                        "title": "Bowtie 2: SE Alignment Scores",
+                        "subtitle": "39 samples"
+                    },
+                    "layout": {
+                        "title": {
+                            "text": "Bowtie 2: SE Alignment Scores<br><sup>39 samples</sup>"
+                        },
+                        "xaxis": {
+                            "title": {
+                                "text": "# Reads"
+                            },
+                            "hoverformat": ",.2f",
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "minallowed": 0,
+                                "maxallowed": 6038305.0
+                            }
+                        },
+                        "yaxis": {
+                            "title": null,
+                            "hoverformat": null,
+                            "ticksuffix": ""
+                        },
+                        "showlegend": true
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b></b>%{meta}: <b>%{x}</b><extra></extra>",
+                        "orientation": "h",
+                        "marker": {
+                            "line": {
+                                "width": 0
+                            }
+                        },
+                        "textposition": "inside",
+                        "insidetextanchor": "start"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "n_samples": 39,
+                    "cats": [
+                        {
+                            "name": "SE mapped uniquely",
+                            "color": "32,86,143",
+                            "data": [
+                                1147159.0,
+                                1254349.0,
+                                1628168.0,
+                                1241890.0,
+                                2216857.0,
+                                1609805.0,
+                                2097075.0,
+                                1742929.0,
+                                2258593.0,
+                                1699069.0,
+                                854124.0,
+                                2094524.0,
+                                1358035.0,
+                                2086726.0,
+                                1683551.0,
+                                1670698.0,
+                                1540103.0,
+                                1893170.0,
+                                1304724.0,
+                                1938718.0,
+                                1457601.0,
+                                1591579.0,
+                                1614242.0,
+                                1175521.0,
+                                924969.0,
+                                1042576.0,
+                                1860624.0,
+                                1872561.0,
+                                1788489.0,
+                                1506685.0,
+                                2273349.0,
+                                1672180.0,
+                                2349179.0,
+                                1929819.0,
+                                1725953.0,
+                                1968042.0,
+                                1939477.0,
+                                1717248.0,
+                                1686820.0
+                            ],
+                            "data_pct": [
+                                24.960367038431027,
+                                28.088009689682497,
+                                44.48533078179273,
+                                28.6609268961621,
+                                43.98860944960886,
+                                43.46798249297205,
+                                42.434212123812,
+                                39.91361544836632,
+                                42.02759881661407,
+                                45.67064442989948,
+                                20.380569780909664,
+                                49.55100607853407,
+                                29.3178993035991,
+                                48.35669915124819,
+                                51.19951025130033,
+                                43.43776227267102,
+                                39.66684652918989,
+                                46.654992054823694,
+                                30.682364937288913,
+                                43.910690014515964,
+                                29.117556460173738,
+                                32.174899042745714,
+                                31.78559009351911,
+                                27.507926961966962,
+                                26.786502393779994,
+                                29.28713429215839,
+                                38.695194732729796,
+                                40.614108697382584,
+                                38.53022395278365,
+                                39.62634043013168,
+                                37.64879382541955,
+                                39.86225165057727,
+                                44.615598202293626,
+                                43.15716922350287,
+                                41.16813347043697,
+                                46.672729881411584,
+                                42.41058083832466,
+                                41.409024947444415,
+                                43.116299137888724
+                            ]
+                        },
+                        {
+                            "name": "SE multimapped",
+                            "color": "247,163,92",
+                            "data": [
+                                1134280.0,
+                                1018307.0,
+                                531495.0,
+                                1217161.0,
+                                698205.0,
+                                488530.0,
+                                740033.0,
+                                621318.0,
+                                696794.0,
+                                375056.0,
+                                1108850.0,
+                                482784.0,
+                                1163823.0,
+                                484040.0,
+                                369745.0,
+                                543134.0,
+                                417940.0,
+                                395290.0,
+                                1051200.0,
+                                527165.0,
+                                1521324.0,
+                                1550921.0,
+                                1398365.0,
+                                1083907.0,
+                                1015739.0,
+                                1091861.0,
+                                394277.0,
+                                438109.0,
+                                402416.0,
+                                369837.0,
+                                626005.0,
+                                455818.0,
+                                518749.0,
+                                683689.0,
+                                689174.0,
+                                637679.0,
+                                713653.0,
+                                536380.0,
+                                532392.0
+                            ],
+                            "data_pct": [
+                                24.680140350510733,
+                                22.80243925978457,
+                                14.521677667088978,
+                                28.09021929628192,
+                                13.854329377476379,
+                                13.191295521688426,
+                                14.974532289317727,
+                                14.22837517945256,
+                                12.96585028370485,
+                                10.081432371081092,
+                                26.458681411085134,
+                                11.421417428790024,
+                                25.12515916100293,
+                                11.2168903139033,
+                                11.24454377554766,
+                                14.121358602335613,
+                                10.764450064969434,
+                                9.741466328618802,
+                                24.720402186269357,
+                                11.939941188714556,
+                                30.390509792609464,
+                                31.35296871740217,
+                                27.534816149699893,
+                                25.364102036088443,
+                                29.415142729059784,
+                                30.67160546125208,
+                                8.199735837889065,
+                                9.502177257403945,
+                                8.669429111492095,
+                                9.726841951475333,
+                                10.367230539033718,
+                                10.866014318352589,
+                                9.85207893985159,
+                                15.289559212157954,
+                                16.43845876240832,
+                                15.122756383272643,
+                                15.605463868358797,
+                                12.934050761049212,
+                                13.608311930507616
+                            ]
+                        },
+                        {
+                            "name": "SE not aligned",
+                            "color": "152,25,25",
+                            "data": [
+                                2314483.0,
+                                2193125.0,
+                                1500348.0,
+                                1873991.0,
+                                2124554.0,
+                                1605092.0,
+                                2104836.0,
+                                2002506.0,
+                                2418684.0,
+                                1646140.0,
+                                2227900.0,
+                                1649698.0,
+                                2110244.0,
+                                1744512.0,
+                                1234921.0,
+                                1632356.0,
+                                1924552.0,
+                                1769348.0,
+                                1896434.0,
+                                1949256.0,
+                                2026993.0,
+                                1804148.0,
+                                2065927.0,
+                                2013962.0,
+                                1512408.0,
+                                1425406.0,
+                                2553510.0,
+                                2299947.0,
+                                2450877.0,
+                                1925709.0,
+                                3138951.0,
+                                2066898.0,
+                                2397448.0,
+                                1858099.0,
+                                1777322.0,
+                                1610964.0,
+                                1919967.0,
+                                1893410.0,
+                                1693044.0
+                            ],
+                            "data_pct": [
+                                50.35949261105824,
+                                49.10955105053293,
+                                40.992991551118294,
+                                43.24885380755599,
+                                42.15706117291476,
+                                43.34072198533953,
+                                42.59125558687027,
+                                45.858009372181115,
+                                45.00655089968108,
+                                44.247923199019425,
+                                53.160748808005195,
+                                39.027576492675905,
+                                45.55694153539797,
+                                40.42641053484851,
+                                37.55594597315201,
+                                42.44087912499337,
+                                49.56870340584068,
+                                43.603541616557514,
+                                44.59723287644173,
+                                44.14936879676948,
+                                40.4919337472168,
+                                36.472132239852115,
+                                40.67959375678099,
+                                47.12797100194459,
+                                43.79835487716022,
+                                40.04126024658953,
+                                53.10506942938113,
+                                49.88371404521347,
+                                52.80034693572425,
+                                50.646817618392994,
+                                51.98397563554673,
+                                49.27173403107014,
+                                45.53232285785479,
+                                41.55327156433917,
+                                42.39340776715471,
+                                38.20451373531578,
+                                41.98395529331654,
+                                45.65692429150637,
+                                43.27538893160366
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "SRR22293483_hisat2",
+                        "SRR22293482_hisat2",
+                        "SRR22293481_hisat2",
+                        "SRR22293480_hisat2",
+                        "SRR22293479_hisat2",
+                        "SRR22293478_hisat2",
+                        "SRR22293477_hisat2",
+                        "SRR22293476_hisat2",
+                        "SRR22293475_hisat2",
+                        "SRR22293474_hisat2",
+                        "SRR22293473_hisat2",
+                        "SRR22293472_hisat2",
+                        "SRR22293471_hisat2",
+                        "SRR22293470_hisat2",
+                        "SRR22293469_hisat2",
+                        "SRR22293468_hisat2",
+                        "SRR22293467_hisat2",
+                        "SRR22293466_hisat2",
+                        "SRR22293465_hisat2",
+                        "SRR22293464_hisat2",
+                        "SRR22293463_hisat2",
+                        "SRR22293462_hisat2",
+                        "SRR22293461_hisat2",
+                        "SRR22293460_hisat2",
+                        "SRR22293459_hisat2",
+                        "SRR22293458_hisat2",
+                        "SRR22293457_hisat2",
+                        "SRR22293456_hisat2",
+                        "SRR22293455_hisat2",
+                        "SRR22293454_hisat2",
+                        "SRR22293453_hisat2",
+                        "SRR22293452_hisat2",
+                        "SRR22293451_hisat2",
+                        "SRR22293450_hisat2",
+                        "SRR22293449_hisat2",
+                        "SRR22293448_hisat2",
+                        "SRR22293447_hisat2",
+                        "SRR22293446_hisat2",
+                        "SRR22293445_hisat2"
+                    ]
+                }
+            ],
+            "pconfig": {
+                "id": "bowtie2_se_plot",
+                "title": "Bowtie 2: SE Alignment Scores",
+                "subtitle": null,
+                "anchor": null,
+                "table_title": null,
+                "height": null,
+                "width": null,
+                "square": false,
+                "logswitch": false,
+                "logswitch_active": false,
+                "logswitch_label": "Log10",
+                "cpswitch": true,
+                "cpswitch_c_active": true,
+                "cpswitch_counts_label": "Number of Reads",
+                "cpswitch_percent_label": "Percentages",
+                "xLog": null,
+                "yLog": null,
+                "xlog": false,
+                "ylog": false,
+                "data_labels": [],
+                "xTitle": null,
+                "yTitle": null,
+                "xlab": null,
+                "ylab": "# Reads",
+                "xsuffix": null,
+                "ysuffix": null,
+                "tt_suffix": null,
+                "xLabFormat": null,
+                "yLabFormat": null,
+                "xLabelFormat": null,
+                "yLabelFormat": null,
+                "xlab_format": null,
+                "ylab_format": null,
+                "tt_label": null,
+                "xDecimals": null,
+                "yDecimals": null,
+                "decimalPlaces": null,
+                "x_decimals": null,
+                "y_decimals": null,
+                "tt_decimals": null,
+                "xmin": null,
+                "xmax": null,
+                "ymin": null,
+                "ymax": null,
+                "xFloor": null,
+                "xCeiling": null,
+                "yFloor": null,
+                "yCeiling": null,
+                "x_clipmin": null,
+                "x_clipmax": null,
+                "y_clipmin": null,
+                "y_clipmax": null,
+                "save_data_file": true,
+                "showlegend": null,
+                "xMinRange": null,
+                "yMinRange": null,
+                "x_minrange": null,
+                "y_minrange": null,
+                "xPlotBands": null,
+                "yPlotBands": null,
+                "xPlotLines": null,
+                "yPlotLines": null,
+                "x_bands": null,
+                "y_bands": null,
+                "x_lines": null,
+                "y_lines": null,
+                "series_label": "samples",
+                "stacking": "relative",
+                "hide_empty": null,
+                "hide_zero_cats": true,
+                "sort_samples": true,
+                "use_legend": null,
+                "suffix": null,
+                "lab_format": null
+            },
+            "add_log_tab": false,
+            "add_pct_tab": true,
+            "l_active": false,
+            "p_active": false,
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [
+                "xaxis"
+            ],
+            "square": false,
+            "flat": false,
+            "defer_render": false,
+            "section_anchor": null,
+            "module_anchor": null
+        },
+        "bowtie2_pe_plot": {
+            "id": "bowtie2_pe_plot",
+            "anchor": "bowtie2_pe_plot",
+            "plot_type": "bar plot",
+            "layout": {
+                "autosize": true,
+                "colorway": [
+                    "#7cb5ec",
+                    "#434348",
+                    "#90ed7d",
+                    "#f7a35c",
+                    "#8085e9",
+                    "#f15c80",
+                    "#e4d354",
+                    "#2b908f",
+                    "#f45b5b",
+                    "#91e8e1"
+                ],
+                "font": {
+                    "family": "'Lucida Grande', 'Open Sans', verdana, arial, sans-serif"
+                },
+                "height": 410,
+                "hoverlabel": {
+                    "namelength": -1,
+                    "bgcolor": "rgba(255, 255, 255, 0.8)",
+                    "font": {
+                        "color": "black"
+                    }
+                },
+                "margin": {
+                    "b": 65,
+                    "l": 60,
+                    "pad": 5,
+                    "r": 15,
+                    "t": 50
+                },
+                "modebar": {
+                    "activecolor": "rgba(0, 0, 0, 1)",
+                    "bgcolor": "rgba(0, 0, 0, 0)",
+                    "color": "rgba(0, 0, 0, 0.5)"
+                },
+                "paper_bgcolor": "white",
+                "plot_bgcolor": "white",
+                "showlegend": true,
+                "title": {
+                    "font": {
+                        "size": 20
+                    },
+                    "text": "Bowtie 2: PE Alignment Scores",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)"
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)",
+                    "showgrid": false,
+                    "categoryorder": "trace",
+                    "type": "category"
+                },
+                "barmode": "relative",
+                "bargroupgap": 0,
+                "bargap": 0.2,
+                "legend": {
+                    "tracegroupgap": 0,
+                    "traceorder": "normal"
+                },
+                "hovermode": "y unified"
+            },
+            "datasets": [
+                {
+                    "plot_id": "bowtie2_pe_plot",
+                    "label": "1",
+                    "uid": "bowtie2_pe_plot",
+                    "dconfig": {
+                        "title": "Bowtie 2: PE Alignment Scores",
+                        "subtitle": "9 samples"
+                    },
+                    "layout": {
+                        "title": {
+                            "text": "Bowtie 2: PE Alignment Scores<br><sup>9 samples</sup>"
+                        },
+                        "xaxis": {
+                            "title": {
+                                "text": "# Reads"
+                            },
+                            "hoverformat": ",.2f",
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "minallowed": 0,
+                                "maxallowed": 47911876.0
+                            }
+                        },
+                        "yaxis": {
+                            "title": null,
+                            "hoverformat": null,
+                            "ticksuffix": ""
+                        },
+                        "showlegend": true
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b></b>%{meta}: <b>%{x}</b><extra></extra>",
+                        "orientation": "h",
+                        "marker": {
+                            "line": {
+                                "width": 0
+                            }
+                        },
+                        "textposition": "inside",
+                        "insidetextanchor": "start"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "n_samples": 9,
+                    "cats": [
+                        {
+                            "name": "PE mapped uniquely",
+                            "color": "32,86,143",
+                            "data": [
+                                22688187.0,
+                                26503376.0,
+                                25761567.0,
+                                24983867.0,
+                                21605607.0,
+                                25709520.0,
+                                17190609.0,
+                                21476749.0,
+                                25328585.0
+                            ],
+                            "data_pct": [
+                                63.962905767329914,
+                                68.27296702433881,
+                                71.26768311734213,
+                                69.38346228152557,
+                                62.369972148642184,
+                                62.99634437958469,
+                                38.7749695529154,
+                                52.133138576390635,
+                                52.864941043009885
+                            ]
+                        },
+                        {
+                            "name": "PE mapped discordantly uniquely",
+                            "color": "92,148,202",
+                            "data": [
+                                53804.0,
+                                77774.0,
+                                91224.0,
+                                87220.0,
+                                80413.0,
+                                90524.0,
+                                53105.0,
+                                62359.0,
+                                66452.0
+                            ],
+                            "data_pct": [
+                                0.15168511181194946,
+                                0.20034661762904948,
+                                0.25236520451944633,
+                                0.24222133347870686,
+                                0.23213217617023044,
+                                0.22181203999987256,
+                                0.11978311868460115,
+                                0.15137162465721157,
+                                0.138696301518229
+                            ]
+                        },
+                        {
+                            "name": "PE one mate mapped uniquely",
+                            "color": "149,206,256",
+                            "data": [
+                                800854.0,
+                                1011122.0,
+                                1156838.5,
+                                1112322.5,
+                                1000240.0,
+                                1201560.5,
+                                1026738.0,
+                                1175033.5,
+                                1195145.5
+                            ],
+                            "data_pct": [
+                                2.257780621051353,
+                                2.6046605897899013,
+                                3.2003177305146617,
+                                3.0890648842968234,
+                                2.887442178410348,
+                                2.944198065576719,
+                                2.3159001922980886,
+                                2.852302473125765,
+                                2.4944660902027715
+                            ]
+                        },
+                        {
+                            "name": "PE multimapped",
+                            "color": "247,163,92",
+                            "data": [
+                                1826729.0,
+                                3128511.0,
+                                1982011.0,
+                                1915808.0,
+                                1658007.0,
+                                2048887.0,
+                                2410762.0,
+                                3441588.0,
+                                3126028.0
+                            ],
+                            "data_pct": [
+                                5.149944104808762,
+                                8.059076260257608,
+                                5.48310325544585,
+                                5.320449076463821,
+                                4.786250643745107,
+                                5.020412323795004,
+                                5.437691192285593,
+                                8.354187317961536,
+                                6.5245368392588095
+                            ]
+                        },
+                        {
+                            "name": "PE one mate multimapped",
+                            "color": "256,235,117",
+                            "data": [
+                                73217.5,
+                                113694.5,
+                                108191.5,
+                                100473.0,
+                                93148.0,
+                                113913.0,
+                                132791.5,
+                                178909.0,
+                                145961.0
+                            ],
+                            "data_pct": [
+                                0.206415966732797,
+                                0.2928781921725251,
+                                0.29930467886483464,
+                                0.27902664570747665,
+                                0.26889492925154673,
+                                0.279122386466633,
+                                0.29952320882791095,
+                                0.4342876889590446,
+                                0.30464471898366074
+                            ]
+                        },
+                        {
+                            "name": "PE neither mate aligned",
+                            "color": "152,25,25",
+                            "data": [
+                                10028059.5,
+                                7985244.5,
+                                7047782.0,
+                                7808698.5,
+                                10203625.0,
+                                11646725.5,
+                                23520288.5,
+                                14861325.5,
+                                18049704.5
+                            ],
+                            "data_pct": [
+                                28.271268428265223,
+                                20.570071315812104,
+                                19.497226013313078,
+                                21.685775778527606,
+                                29.455307923780577,
+                                28.538110804577084,
+                                53.0521327349884,
+                                36.0747123189058,
+                                37.67271500702665
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "SRR14864072_hisat2",
+                        "SRR14864071_hisat2",
+                        "SRR14864070_hisat2",
+                        "SRR14864069_hisat2",
+                        "SRR14864068_hisat2",
+                        "SRR14864067_hisat2",
+                        "SRR14864066_hisat2",
+                        "SRR14864065_hisat2",
+                        "SRR14864064_hisat2"
+                    ]
+                }
+            ],
+            "pconfig": {
+                "id": "bowtie2_pe_plot",
+                "title": "Bowtie 2: PE Alignment Scores",
+                "subtitle": null,
+                "anchor": null,
+                "table_title": null,
+                "height": null,
+                "width": null,
+                "square": false,
+                "logswitch": false,
+                "logswitch_active": false,
+                "logswitch_label": "Log10",
+                "cpswitch": true,
+                "cpswitch_c_active": true,
+                "cpswitch_counts_label": "Number of Reads",
+                "cpswitch_percent_label": "Percentages",
+                "xLog": null,
+                "yLog": null,
+                "xlog": false,
+                "ylog": false,
+                "data_labels": [],
+                "xTitle": null,
+                "yTitle": null,
+                "xlab": null,
+                "ylab": "# Reads",
+                "xsuffix": null,
+                "ysuffix": null,
+                "tt_suffix": null,
+                "xLabFormat": null,
+                "yLabFormat": null,
+                "xLabelFormat": null,
+                "yLabelFormat": null,
+                "xlab_format": null,
+                "ylab_format": null,
+                "tt_label": null,
+                "xDecimals": null,
+                "yDecimals": null,
+                "decimalPlaces": null,
+                "x_decimals": null,
+                "y_decimals": null,
+                "tt_decimals": null,
+                "xmin": null,
+                "xmax": null,
+                "ymin": null,
+                "ymax": null,
+                "xFloor": null,
+                "xCeiling": null,
+                "yFloor": null,
+                "yCeiling": null,
+                "x_clipmin": null,
+                "x_clipmax": null,
+                "y_clipmin": null,
+                "y_clipmax": null,
+                "save_data_file": true,
+                "showlegend": null,
+                "xMinRange": null,
+                "yMinRange": null,
+                "x_minrange": null,
+                "y_minrange": null,
+                "xPlotBands": null,
+                "yPlotBands": null,
+                "xPlotLines": null,
+                "yPlotLines": null,
+                "x_bands": null,
+                "y_bands": null,
+                "x_lines": null,
+                "y_lines": null,
+                "series_label": "samples",
+                "stacking": "relative",
+                "hide_empty": null,
+                "hide_zero_cats": true,
+                "sort_samples": true,
+                "use_legend": null,
+                "suffix": null,
+                "lab_format": null
+            },
+            "add_log_tab": false,
+            "add_pct_tab": true,
+            "l_active": false,
+            "p_active": false,
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [
+                "xaxis"
+            ],
+            "square": false,
+            "flat": false,
+            "defer_render": false,
+            "section_anchor": null,
+            "module_anchor": null
+        },
+        "general_stats_table": {
+            "id": "general_stats_table",
+            "anchor": "general_stats_table",
+            "plot_type": "violin plot",
+            "layout": {
+                "autosize": true,
+                "colorway": [
+                    "#7cb5ec",
+                    "#434348",
+                    "#90ed7d",
+                    "#f7a35c",
+                    "#8085e9",
+                    "#f15c80",
+                    "#e4d354",
+                    "#2b908f",
+                    "#f45b5b",
+                    "#91e8e1"
+                ],
+                "font": {
+                    "family": "'Lucida Grande', 'Open Sans', verdana, arial, sans-serif"
+                },
+                "height": 500,
+                "hoverlabel": {
+                    "namelength": -1
+                },
+                "margin": {
+                    "b": 40,
+                    "l": 60,
+                    "pad": 0,
+                    "r": 15,
+                    "t": 50
+                },
+                "modebar": {
+                    "activecolor": "rgba(0, 0, 0, 1)",
+                    "bgcolor": "rgba(0, 0, 0, 0)",
+                    "color": "rgba(0, 0, 0, 0.5)"
+                },
+                "paper_bgcolor": "white",
+                "plot_bgcolor": "white",
+                "showlegend": false,
+                "title": {
+                    "font": {
+                        "size": 20
+                    },
+                    "text": "General Statistics",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": false,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.1)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,0.5)",
+                        "size": 9
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.1)"
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.1)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,0.5)",
+                        "size": 9
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.1)"
+                },
+                "violingap": 0,
+                "grid": {
+                    "columns": 1,
+                    "roworder": "top to bottom",
+                    "ygap": 0.4
+                }
+            },
+            "datasets": [
+                {
+                    "plot_id": "general_stats_table",
+                    "label": "1",
+                    "uid": "general_stats_table",
+                    "dconfig": {
+                        "ylab": "",
+                        "title": "General Statistics",
+                        "subtitle": "48 samples"
+                    },
+                    "layout": {
+                        "title": {
+                            "text": "General Statistics<br><sup>48 samples</sup>"
+                        },
+                        "xaxis": {
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "title": {
+                                "text": null
+                            },
+                            "rangemode": "normal",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        },
+                        "yaxis": {
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "title": {
+                                "text": ""
+                            },
+                            "rangemode": "normal",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        }
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b>%{text}</b>: %{x}<extra></extra>",
+                        "orientation": "h",
+                        "box": {
+                            "visible": true
+                        },
+                        "meanline": {
+                            "visible": true
+                        },
+                        "fillcolor": "#b5b5b5",
+                        "line": {
+                            "width": 2,
+                            "color": "#b5b5b5"
+                        },
+                        "opacity": 0.5,
+                        "points": false,
+                        "hoveron": "points"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "n_samples": 48,
+                    "metrics": [
+                        "bowtie_2_hisat2-overall_alignment_rate"
+                    ],
+                    "header_by_metric": {
+                        "bowtie_2_hisat2-overall_alignment_rate": {
+                            "title": "% Aligned",
+                            "description": "overall alignment rate",
+                            "suffix": "%",
+                            "dmin": 0.0,
+                            "dmax": 100.0,
+                            "hidden": false,
+                            "xaxis": {
+                                "ticksuffix": "%",
+                                "tickvals": null,
+                                "range": [
+                                    -0.5,
+                                    100.5025
+                                ]
+                            },
+                            "show_only_outliers": false,
+                            "show_points": true,
+                            "namespace": "Bowtie 2 / HiSAT2",
+                            "color": null,
+                            "hoverformat": ".2f"
+                        }
+                    },
+                    "violin_value_by_sample_by_metric": {
+                        "bowtie_2_hisat2-overall_alignment_rate": {
+                            "SRR14864064_hisat2": 62.33,
+                            "SRR14864065_hisat2": 63.93,
+                            "SRR14864066_hisat2": 46.95,
+                            "SRR14864067_hisat2": 71.46,
+                            "SRR14864068_hisat2": 70.54,
+                            "SRR14864069_hisat2": 78.31,
+                            "SRR14864070_hisat2": 80.5,
+                            "SRR14864071_hisat2": 79.43,
+                            "SRR14864072_hisat2": 71.73,
+                            "SRR22293445_hisat2": 56.72,
+                            "SRR22293446_hisat2": 54.34,
+                            "SRR22293447_hisat2": 58.02,
+                            "SRR22293448_hisat2": 61.8,
+                            "SRR22293449_hisat2": 57.61,
+                            "SRR22293450_hisat2": 58.45,
+                            "SRR22293451_hisat2": 54.47,
+                            "SRR22293452_hisat2": 50.73,
+                            "SRR22293453_hisat2": 48.02,
+                            "SRR22293454_hisat2": 49.35,
+                            "SRR22293455_hisat2": 47.2,
+                            "SRR22293456_hisat2": 50.12,
+                            "SRR22293457_hisat2": 46.89,
+                            "SRR22293458_hisat2": 59.96,
+                            "SRR22293459_hisat2": 56.2,
+                            "SRR22293460_hisat2": 52.87,
+                            "SRR22293461_hisat2": 59.32,
+                            "SRR22293462_hisat2": 63.53,
+                            "SRR22293463_hisat2": 59.51,
+                            "SRR22293464_hisat2": 55.85,
+                            "SRR22293465_hisat2": 55.4,
+                            "SRR22293466_hisat2": 56.4,
+                            "SRR22293467_hisat2": 50.43,
+                            "SRR22293468_hisat2": 57.56,
+                            "SRR22293469_hisat2": 62.44,
+                            "SRR22293470_hisat2": 59.57,
+                            "SRR22293471_hisat2": 54.44,
+                            "SRR22293472_hisat2": 60.97,
+                            "SRR22293473_hisat2": 46.84,
+                            "SRR22293474_hisat2": 55.75,
+                            "SRR22293475_hisat2": 54.99,
+                            "SRR22293476_hisat2": 54.14,
+                            "SRR22293477_hisat2": 57.41,
+                            "SRR22293478_hisat2": 56.66,
+                            "SRR22293479_hisat2": 57.84,
+                            "SRR22293480_hisat2": 56.75,
+                            "SRR22293481_hisat2": 59.01,
+                            "SRR22293482_hisat2": 50.89,
+                            "SRR22293483_hisat2": 49.64
+                        }
+                    },
+                    "scatter_value_by_sample_by_metric": {
+                        "bowtie_2_hisat2-overall_alignment_rate": {}
+                    },
+                    "all_samples": [
+                        "SRR14864064_hisat2",
+                        "SRR14864065_hisat2",
+                        "SRR14864066_hisat2",
+                        "SRR14864067_hisat2",
+                        "SRR14864068_hisat2",
+                        "SRR14864069_hisat2",
+                        "SRR14864070_hisat2",
+                        "SRR14864071_hisat2",
+                        "SRR14864072_hisat2",
+                        "SRR22293445_hisat2",
+                        "SRR22293446_hisat2",
+                        "SRR22293447_hisat2",
+                        "SRR22293448_hisat2",
+                        "SRR22293449_hisat2",
+                        "SRR22293450_hisat2",
+                        "SRR22293451_hisat2",
+                        "SRR22293452_hisat2",
+                        "SRR22293453_hisat2",
+                        "SRR22293454_hisat2",
+                        "SRR22293455_hisat2",
+                        "SRR22293456_hisat2",
+                        "SRR22293457_hisat2",
+                        "SRR22293458_hisat2",
+                        "SRR22293459_hisat2",
+                        "SRR22293460_hisat2",
+                        "SRR22293461_hisat2",
+                        "SRR22293462_hisat2",
+                        "SRR22293463_hisat2",
+                        "SRR22293464_hisat2",
+                        "SRR22293465_hisat2",
+                        "SRR22293466_hisat2",
+                        "SRR22293467_hisat2",
+                        "SRR22293468_hisat2",
+                        "SRR22293469_hisat2",
+                        "SRR22293470_hisat2",
+                        "SRR22293471_hisat2",
+                        "SRR22293472_hisat2",
+                        "SRR22293473_hisat2",
+                        "SRR22293474_hisat2",
+                        "SRR22293475_hisat2",
+                        "SRR22293476_hisat2",
+                        "SRR22293477_hisat2",
+                        "SRR22293478_hisat2",
+                        "SRR22293479_hisat2",
+                        "SRR22293480_hisat2",
+                        "SRR22293481_hisat2",
+                        "SRR22293482_hisat2",
+                        "SRR22293483_hisat2"
+                    ],
+                    "scatter_trace_params": {
+                        "mode": "markers",
+                        "marker": {
+                            "size": 4,
+                            "color": "#0b79e6"
+                        },
+                        "showlegend": false,
+                        "hovertemplate": "<b>%{text}</b>: %{x}<extra></extra>",
+                        "hoverlabel": {
+                            "bgcolor": "white"
+                        }
+                    },
+                    "dt": {
+                        "id": "general_stats_table",
+                        "anchor": "general_stats_table_table",
+                        "pconfig": {
+                            "id": "general_stats_table",
+                            "title": "General Statistics",
+                            "subtitle": null,
+                            "anchor": null,
+                            "table_title": null,
+                            "height": null,
+                            "width": null,
+                            "square": false,
+                            "logswitch": false,
+                            "logswitch_active": false,
+                            "logswitch_label": "Log10",
+                            "cpswitch": true,
+                            "cpswitch_c_active": true,
+                            "cpswitch_counts_label": "Counts",
+                            "cpswitch_percent_label": "Percentages",
+                            "xLog": null,
+                            "yLog": null,
+                            "xlog": false,
+                            "ylog": false,
+                            "data_labels": [],
+                            "xTitle": null,
+                            "yTitle": null,
+                            "xlab": null,
+                            "ylab": null,
+                            "xsuffix": null,
+                            "ysuffix": null,
+                            "tt_suffix": null,
+                            "xLabFormat": null,
+                            "yLabFormat": null,
+                            "xLabelFormat": null,
+                            "yLabelFormat": null,
+                            "xlab_format": null,
+                            "ylab_format": null,
+                            "tt_label": null,
+                            "xDecimals": null,
+                            "yDecimals": null,
+                            "decimalPlaces": null,
+                            "x_decimals": null,
+                            "y_decimals": null,
+                            "tt_decimals": null,
+                            "xmin": null,
+                            "xmax": null,
+                            "ymin": null,
+                            "ymax": null,
+                            "xFloor": null,
+                            "xCeiling": null,
+                            "yFloor": null,
+                            "yCeiling": null,
+                            "x_clipmin": null,
+                            "x_clipmax": null,
+                            "y_clipmin": null,
+                            "y_clipmax": null,
+                            "save_data_file": true,
+                            "showlegend": null,
+                            "xMinRange": null,
+                            "yMinRange": null,
+                            "x_minrange": null,
+                            "y_minrange": null,
+                            "xPlotBands": null,
+                            "yPlotBands": null,
+                            "xPlotLines": null,
+                            "yPlotLines": null,
+                            "x_bands": null,
+                            "y_bands": null,
+                            "x_lines": null,
+                            "y_lines": null,
+                            "series_label": "samples",
+                            "namespace": "",
+                            "save_file": true,
+                            "raw_data_fn": "multiqc_general_stats",
+                            "defaultsort": null,
+                            "sortRows": true,
+                            "sort_rows": true,
+                            "only_defined_headers": true,
+                            "col1_header": "Sample Name",
+                            "no_beeswarm": false,
+                            "no_violin": false,
+                            "scale": "GnBu",
+                            "min": null,
+                            "parse_numeric": true,
+                            "rows_are_samples": true
+                        },
+                        "section_by_id": {
+                            "bowtie2": {
+                                "column_by_key": {
+                                    "overall_alignment_rate": {
+                                        "rid": "bowtie_2_hisat2-overall_alignment_rate",
+                                        "clean_rid": "bowtie_2_hisat2-overall_alignment_rate",
+                                        "title": "% Aligned",
+                                        "description": "overall alignment rate",
+                                        "scale": "YlGn",
+                                        "hidden": false,
+                                        "placement": 1000.0,
+                                        "namespace": "Bowtie 2 / HiSAT2",
+                                        "colour": null,
+                                        "color": null,
+                                        "max": 100.0,
+                                        "dmax": 100.0,
+                                        "min": 0.0,
+                                        "dmin": 0.0,
+                                        "ceiling": null,
+                                        "floor": null,
+                                        "minRange": null,
+                                        "minrange": null,
+                                        "shared_key": null,
+                                        "tt_decimals": null,
+                                        "suffix": "%",
+                                        "cond_formatting_colours": [
+                                            {
+                                                "blue": "#337ab7"
+                                            },
+                                            {
+                                                "lbue": "#5bc0de"
+                                            },
+                                            {
+                                                "pass": "#5cb85c"
+                                            },
+                                            {
+                                                "warn": "#f0ad4e"
+                                            },
+                                            {
+                                                "fail": "#d9534f"
+                                            },
+                                            {
+                                                "male": "#5bc0de"
+                                            },
+                                            {
+                                                "female": "#d9534f"
+                                            }
+                                        ],
+                                        "cond_formatting_rules": {},
+                                        "bgcols": {},
+                                        "bars_zero_centrepoint": false,
+                                        "modify": null,
+                                        "format": null
+                                    }
+                                },
+                                "rows_by_sgroup": {
+                                    "SRR14864064_hisat2": [
+                                        {
+                                            "sample": "SRR14864064_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 62.33,
+                                                    "mod": 62.33,
+                                                    "fmt": "62.3"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR14864065_hisat2": [
+                                        {
+                                            "sample": "SRR14864065_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 63.93,
+                                                    "mod": 63.93,
+                                                    "fmt": "63.9"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR14864066_hisat2": [
+                                        {
+                                            "sample": "SRR14864066_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 46.95,
+                                                    "mod": 46.95,
+                                                    "fmt": "47.0"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR14864067_hisat2": [
+                                        {
+                                            "sample": "SRR14864067_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 71.46,
+                                                    "mod": 71.46,
+                                                    "fmt": "71.5"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR14864068_hisat2": [
+                                        {
+                                            "sample": "SRR14864068_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 70.54,
+                                                    "mod": 70.54,
+                                                    "fmt": "70.5"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR14864069_hisat2": [
+                                        {
+                                            "sample": "SRR14864069_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 78.31,
+                                                    "mod": 78.31,
+                                                    "fmt": "78.3"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR14864070_hisat2": [
+                                        {
+                                            "sample": "SRR14864070_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 80.5,
+                                                    "mod": 80.5,
+                                                    "fmt": "80.5"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR14864071_hisat2": [
+                                        {
+                                            "sample": "SRR14864071_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 79.43,
+                                                    "mod": 79.43,
+                                                    "fmt": "79.4"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR14864072_hisat2": [
+                                        {
+                                            "sample": "SRR14864072_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 71.73,
+                                                    "mod": 71.73,
+                                                    "fmt": "71.7"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293445_hisat2": [
+                                        {
+                                            "sample": "SRR22293445_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 56.72,
+                                                    "mod": 56.72,
+                                                    "fmt": "56.7"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293446_hisat2": [
+                                        {
+                                            "sample": "SRR22293446_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 54.34,
+                                                    "mod": 54.34,
+                                                    "fmt": "54.3"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293447_hisat2": [
+                                        {
+                                            "sample": "SRR22293447_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 58.02,
+                                                    "mod": 58.02,
+                                                    "fmt": "58.0"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293448_hisat2": [
+                                        {
+                                            "sample": "SRR22293448_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 61.8,
+                                                    "mod": 61.8,
+                                                    "fmt": "61.8"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293449_hisat2": [
+                                        {
+                                            "sample": "SRR22293449_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 57.61,
+                                                    "mod": 57.61,
+                                                    "fmt": "57.6"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293450_hisat2": [
+                                        {
+                                            "sample": "SRR22293450_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 58.45,
+                                                    "mod": 58.45,
+                                                    "fmt": "58.5"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293451_hisat2": [
+                                        {
+                                            "sample": "SRR22293451_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 54.47,
+                                                    "mod": 54.47,
+                                                    "fmt": "54.5"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293452_hisat2": [
+                                        {
+                                            "sample": "SRR22293452_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 50.73,
+                                                    "mod": 50.73,
+                                                    "fmt": "50.7"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293453_hisat2": [
+                                        {
+                                            "sample": "SRR22293453_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 48.02,
+                                                    "mod": 48.02,
+                                                    "fmt": "48.0"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293454_hisat2": [
+                                        {
+                                            "sample": "SRR22293454_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 49.35,
+                                                    "mod": 49.35,
+                                                    "fmt": "49.4"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293455_hisat2": [
+                                        {
+                                            "sample": "SRR22293455_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 47.2,
+                                                    "mod": 47.2,
+                                                    "fmt": "47.2"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293456_hisat2": [
+                                        {
+                                            "sample": "SRR22293456_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 50.12,
+                                                    "mod": 50.12,
+                                                    "fmt": "50.1"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293457_hisat2": [
+                                        {
+                                            "sample": "SRR22293457_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 46.89,
+                                                    "mod": 46.89,
+                                                    "fmt": "46.9"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293458_hisat2": [
+                                        {
+                                            "sample": "SRR22293458_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 59.96,
+                                                    "mod": 59.96,
+                                                    "fmt": "60.0"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293459_hisat2": [
+                                        {
+                                            "sample": "SRR22293459_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 56.2,
+                                                    "mod": 56.2,
+                                                    "fmt": "56.2"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293460_hisat2": [
+                                        {
+                                            "sample": "SRR22293460_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 52.87,
+                                                    "mod": 52.87,
+                                                    "fmt": "52.9"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293461_hisat2": [
+                                        {
+                                            "sample": "SRR22293461_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 59.32,
+                                                    "mod": 59.32,
+                                                    "fmt": "59.3"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293462_hisat2": [
+                                        {
+                                            "sample": "SRR22293462_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 63.53,
+                                                    "mod": 63.53,
+                                                    "fmt": "63.5"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293463_hisat2": [
+                                        {
+                                            "sample": "SRR22293463_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 59.51,
+                                                    "mod": 59.51,
+                                                    "fmt": "59.5"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293464_hisat2": [
+                                        {
+                                            "sample": "SRR22293464_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 55.85,
+                                                    "mod": 55.85,
+                                                    "fmt": "55.9"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293465_hisat2": [
+                                        {
+                                            "sample": "SRR22293465_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 55.4,
+                                                    "mod": 55.4,
+                                                    "fmt": "55.4"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293466_hisat2": [
+                                        {
+                                            "sample": "SRR22293466_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 56.4,
+                                                    "mod": 56.4,
+                                                    "fmt": "56.4"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293467_hisat2": [
+                                        {
+                                            "sample": "SRR22293467_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 50.43,
+                                                    "mod": 50.43,
+                                                    "fmt": "50.4"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293468_hisat2": [
+                                        {
+                                            "sample": "SRR22293468_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 57.56,
+                                                    "mod": 57.56,
+                                                    "fmt": "57.6"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293469_hisat2": [
+                                        {
+                                            "sample": "SRR22293469_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 62.44,
+                                                    "mod": 62.44,
+                                                    "fmt": "62.4"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293470_hisat2": [
+                                        {
+                                            "sample": "SRR22293470_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 59.57,
+                                                    "mod": 59.57,
+                                                    "fmt": "59.6"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293471_hisat2": [
+                                        {
+                                            "sample": "SRR22293471_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 54.44,
+                                                    "mod": 54.44,
+                                                    "fmt": "54.4"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293472_hisat2": [
+                                        {
+                                            "sample": "SRR22293472_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 60.97,
+                                                    "mod": 60.97,
+                                                    "fmt": "61.0"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293473_hisat2": [
+                                        {
+                                            "sample": "SRR22293473_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 46.84,
+                                                    "mod": 46.84,
+                                                    "fmt": "46.8"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293474_hisat2": [
+                                        {
+                                            "sample": "SRR22293474_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 55.75,
+                                                    "mod": 55.75,
+                                                    "fmt": "55.8"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293475_hisat2": [
+                                        {
+                                            "sample": "SRR22293475_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 54.99,
+                                                    "mod": 54.99,
+                                                    "fmt": "55.0"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293476_hisat2": [
+                                        {
+                                            "sample": "SRR22293476_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 54.14,
+                                                    "mod": 54.14,
+                                                    "fmt": "54.1"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293477_hisat2": [
+                                        {
+                                            "sample": "SRR22293477_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 57.41,
+                                                    "mod": 57.41,
+                                                    "fmt": "57.4"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293478_hisat2": [
+                                        {
+                                            "sample": "SRR22293478_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 56.66,
+                                                    "mod": 56.66,
+                                                    "fmt": "56.7"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293479_hisat2": [
+                                        {
+                                            "sample": "SRR22293479_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 57.84,
+                                                    "mod": 57.84,
+                                                    "fmt": "57.8"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293480_hisat2": [
+                                        {
+                                            "sample": "SRR22293480_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 56.75,
+                                                    "mod": 56.75,
+                                                    "fmt": "56.8"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293481_hisat2": [
+                                        {
+                                            "sample": "SRR22293481_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 59.01,
+                                                    "mod": 59.01,
+                                                    "fmt": "59.0"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293482_hisat2": [
+                                        {
+                                            "sample": "SRR22293482_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 50.89,
+                                                    "mod": 50.89,
+                                                    "fmt": "50.9"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR22293483_hisat2": [
+                                        {
+                                            "sample": "SRR22293483_hisat2",
+                                            "data": {
+                                                "overall_alignment_rate": {
+                                                    "raw": 49.64,
+                                                    "mod": 49.64,
+                                                    "fmt": "49.6"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "headers_in_order": {
+                            "1000.0": [
+                                [
+                                    0,
+                                    "overall_alignment_rate"
+                                ]
+                            ]
+                        }
+                    },
+                    "show_table_by_default": true,
+                    "is_downsampled": false
+                }
+            ],
+            "pconfig": {
+                "id": "general_stats_table",
+                "title": "General Statistics",
+                "subtitle": null,
+                "anchor": null,
+                "table_title": null,
+                "height": null,
+                "width": null,
+                "square": false,
+                "logswitch": false,
+                "logswitch_active": false,
+                "logswitch_label": "Log10",
+                "cpswitch": true,
+                "cpswitch_c_active": true,
+                "cpswitch_counts_label": "Counts",
+                "cpswitch_percent_label": "Percentages",
+                "xLog": null,
+                "yLog": null,
+                "xlog": false,
+                "ylog": false,
+                "data_labels": [],
+                "xTitle": null,
+                "yTitle": null,
+                "xlab": null,
+                "ylab": null,
+                "xsuffix": null,
+                "ysuffix": null,
+                "tt_suffix": null,
+                "xLabFormat": null,
+                "yLabFormat": null,
+                "xLabelFormat": null,
+                "yLabelFormat": null,
+                "xlab_format": null,
+                "ylab_format": null,
+                "tt_label": null,
+                "xDecimals": null,
+                "yDecimals": null,
+                "decimalPlaces": null,
+                "x_decimals": null,
+                "y_decimals": null,
+                "tt_decimals": null,
+                "xmin": null,
+                "xmax": null,
+                "ymin": null,
+                "ymax": null,
+                "xFloor": null,
+                "xCeiling": null,
+                "yFloor": null,
+                "yCeiling": null,
+                "x_clipmin": null,
+                "x_clipmax": null,
+                "y_clipmin": null,
+                "y_clipmax": null,
+                "save_data_file": true,
+                "showlegend": null,
+                "xMinRange": null,
+                "yMinRange": null,
+                "x_minrange": null,
+                "y_minrange": null,
+                "xPlotBands": null,
+                "yPlotBands": null,
+                "xPlotLines": null,
+                "yPlotLines": null,
+                "x_bands": null,
+                "y_bands": null,
+                "x_lines": null,
+                "y_lines": null,
+                "series_label": "samples",
+                "namespace": "",
+                "save_file": true,
+                "raw_data_fn": "multiqc_general_stats",
+                "defaultsort": null,
+                "sortRows": true,
+                "sort_rows": true,
+                "only_defined_headers": true,
+                "col1_header": "Sample Name",
+                "no_beeswarm": false,
+                "no_violin": false,
+                "scale": "GnBu",
+                "min": null,
+                "parse_numeric": true,
+                "rows_are_samples": true
+            },
+            "add_log_tab": false,
+            "add_pct_tab": false,
+            "l_active": false,
+            "p_active": false,
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [],
+            "square": false,
+            "flat": false,
+            "defer_render": false,
+            "section_anchor": null,
+            "module_anchor": null,
+            "violin_height": 70,
+            "extra_height": 63,
+            "no_violin": false,
+            "show_table": true,
+            "show_table_by_default": true,
+            "n_samples": 48,
+            "table_anchor": "general_stats_table_table"
+        }
+    },
+    "config_analysis_dir": [
+        "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2"
+    ],
+    "config_git_hash": null,
+    "config_intro_text": null,
+    "config_report_comment": null,
+    "config_report_header_info": null,
+    "config_script_path": "/lustre1/home/mass/amalia/.conda/envs/Mcap/lib/python3.13/site-packages/multiqc",
+    "config_short_version": "1.29",
+    "config_subtitle": null,
+    "config_title": null,
+    "config_version": "1.29",
+    "config_output_dir": "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/outputs/multiqc_hisat2",
+    "config_analysis_dir_abs": [
+        "/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/hisat2"
+    ],
+    "report_saved_raw_data": {
+        "multiqc_bowtie2": {
+            "SRR14864064_hisat2": {
+                "total_reads": 47911876,
+                "paired_total": 47911876,
+                "paired_aligned_none": 19457263,
+                "paired_aligned_one": 25328585,
+                "paired_aligned_multi": 3126028,
+                "paired_aligned_discord_one": 66452,
+                "paired_aligned_mate_none": 36099409,
+                "paired_aligned_mate_one": 2390291,
+                "paired_aligned_mate_multi": 291922,
+                "overall_alignment_rate": 62.33,
+                "paired_aligned_mate_multi_halved": 145961.0,
+                "paired_aligned_mate_none_halved": 18049704.5,
+                "paired_aligned_mate_one_halved": 1195145.5
+            },
+            "SRR14864065_hisat2": {
+                "total_reads": 41195964,
+                "paired_total": 41195964,
+                "paired_aligned_none": 16277627,
+                "paired_aligned_one": 21476749,
+                "paired_aligned_multi": 3441588,
+                "paired_aligned_discord_one": 62359,
+                "paired_aligned_mate_none": 29722651,
+                "paired_aligned_mate_one": 2350067,
+                "paired_aligned_mate_multi": 357818,
+                "overall_alignment_rate": 63.93,
+                "paired_aligned_mate_multi_halved": 178909.0,
+                "paired_aligned_mate_none_halved": 14861325.5,
+                "paired_aligned_mate_one_halved": 1175033.5
+            },
+            "SRR14864066_hisat2": {
+                "total_reads": 44334294,
+                "paired_total": 44334294,
+                "paired_aligned_none": 24732923,
+                "paired_aligned_one": 17190609,
+                "paired_aligned_multi": 2410762,
+                "paired_aligned_discord_one": 53105,
+                "paired_aligned_mate_none": 47040577,
+                "paired_aligned_mate_one": 2053476,
+                "paired_aligned_mate_multi": 265583,
+                "overall_alignment_rate": 46.95,
+                "paired_aligned_mate_multi_halved": 132791.5,
+                "paired_aligned_mate_none_halved": 23520288.5,
+                "paired_aligned_mate_one_halved": 1026738.0
+            },
+            "SRR14864067_hisat2": {
+                "total_reads": 40811130,
+                "paired_total": 40811130,
+                "paired_aligned_none": 13052723,
+                "paired_aligned_one": 25709520,
+                "paired_aligned_multi": 2048887,
+                "paired_aligned_discord_one": 90524,
+                "paired_aligned_mate_none": 23293451,
+                "paired_aligned_mate_one": 2403121,
+                "paired_aligned_mate_multi": 227826,
+                "overall_alignment_rate": 71.46,
+                "paired_aligned_mate_multi_halved": 113913.0,
+                "paired_aligned_mate_none_halved": 11646725.5,
+                "paired_aligned_mate_one_halved": 1201560.5
+            },
+            "SRR14864068_hisat2": {
+                "total_reads": 34641040,
+                "paired_total": 34641040,
+                "paired_aligned_none": 11377426,
+                "paired_aligned_one": 21605607,
+                "paired_aligned_multi": 1658007,
+                "paired_aligned_discord_one": 80413,
+                "paired_aligned_mate_none": 20407250,
+                "paired_aligned_mate_one": 2000480,
+                "paired_aligned_mate_multi": 186296,
+                "overall_alignment_rate": 70.54,
+                "paired_aligned_mate_multi_halved": 93148.0,
+                "paired_aligned_mate_none_halved": 10203625.0,
+                "paired_aligned_mate_one_halved": 1000240.0
+            },
+            "SRR14864069_hisat2": {
+                "total_reads": 36008389,
+                "paired_total": 36008389,
+                "paired_aligned_none": 9108714,
+                "paired_aligned_one": 24983867,
+                "paired_aligned_multi": 1915808,
+                "paired_aligned_discord_one": 87220,
+                "paired_aligned_mate_none": 15617397,
+                "paired_aligned_mate_one": 2224645,
+                "paired_aligned_mate_multi": 200946,
+                "overall_alignment_rate": 78.31,
+                "paired_aligned_mate_multi_halved": 100473.0,
+                "paired_aligned_mate_none_halved": 7808698.5,
+                "paired_aligned_mate_one_halved": 1112322.5
+            },
+            "SRR14864070_hisat2": {
+                "total_reads": 36147614,
+                "paired_total": 36147614,
+                "paired_aligned_none": 8404036,
+                "paired_aligned_one": 25761567,
+                "paired_aligned_multi": 1982011,
+                "paired_aligned_discord_one": 91224,
+                "paired_aligned_mate_none": 14095564,
+                "paired_aligned_mate_one": 2313677,
+                "paired_aligned_mate_multi": 216383,
+                "overall_alignment_rate": 80.5,
+                "paired_aligned_mate_multi_halved": 108191.5,
+                "paired_aligned_mate_none_halved": 7047782.0,
+                "paired_aligned_mate_one_halved": 1156838.5
+            },
+            "SRR14864071_hisat2": {
+                "total_reads": 38819722,
+                "paired_total": 38819722,
+                "paired_aligned_none": 9187835,
+                "paired_aligned_one": 26503376,
+                "paired_aligned_multi": 3128511,
+                "paired_aligned_discord_one": 77774,
+                "paired_aligned_mate_none": 15970489,
+                "paired_aligned_mate_one": 2022244,
+                "paired_aligned_mate_multi": 227389,
+                "overall_alignment_rate": 79.43,
+                "paired_aligned_mate_multi_halved": 113694.5,
+                "paired_aligned_mate_none_halved": 7985244.5,
+                "paired_aligned_mate_one_halved": 1011122.0
+            },
+            "SRR14864072_hisat2": {
+                "total_reads": 35470851,
+                "paired_total": 35470851,
+                "paired_aligned_none": 10955935,
+                "paired_aligned_one": 22688187,
+                "paired_aligned_multi": 1826729,
+                "paired_aligned_discord_one": 53804,
+                "paired_aligned_mate_none": 20056119,
+                "paired_aligned_mate_one": 1601708,
+                "paired_aligned_mate_multi": 146435,
+                "overall_alignment_rate": 71.73,
+                "paired_aligned_mate_multi_halved": 73217.5,
+                "paired_aligned_mate_none_halved": 10028059.5,
+                "paired_aligned_mate_one_halved": 800854.0
+            },
+            "SRR22293445_hisat2": {
+                "total_reads": 3912256,
+                "unpaired_total": 3912256,
+                "unpaired_aligned_none": 1693044,
+                "unpaired_aligned_one": 1686820,
+                "unpaired_aligned_multi": 532392,
+                "overall_alignment_rate": 56.72
+            },
+            "SRR22293446_hisat2": {
+                "total_reads": 4147038,
+                "unpaired_total": 4147038,
+                "unpaired_aligned_none": 1893410,
+                "unpaired_aligned_one": 1717248,
+                "unpaired_aligned_multi": 536380,
+                "overall_alignment_rate": 54.34
+            },
+            "SRR22293447_hisat2": {
+                "total_reads": 4573097,
+                "unpaired_total": 4573097,
+                "unpaired_aligned_none": 1919967,
+                "unpaired_aligned_one": 1939477,
+                "unpaired_aligned_multi": 713653,
+                "overall_alignment_rate": 58.02
+            },
+            "SRR22293448_hisat2": {
+                "total_reads": 4216685,
+                "unpaired_total": 4216685,
+                "unpaired_aligned_none": 1610964,
+                "unpaired_aligned_one": 1968042,
+                "unpaired_aligned_multi": 637679,
+                "overall_alignment_rate": 61.8
+            },
+            "SRR22293449_hisat2": {
+                "total_reads": 4192449,
+                "unpaired_total": 4192449,
+                "unpaired_aligned_none": 1777322,
+                "unpaired_aligned_one": 1725953,
+                "unpaired_aligned_multi": 689174,
+                "overall_alignment_rate": 57.61
+            },
+            "SRR22293450_hisat2": {
+                "total_reads": 4471607,
+                "unpaired_total": 4471607,
+                "unpaired_aligned_none": 1858099,
+                "unpaired_aligned_one": 1929819,
+                "unpaired_aligned_multi": 683689,
+                "overall_alignment_rate": 58.45
+            },
+            "SRR22293451_hisat2": {
+                "total_reads": 5265376,
+                "unpaired_total": 5265376,
+                "unpaired_aligned_none": 2397448,
+                "unpaired_aligned_one": 2349179,
+                "unpaired_aligned_multi": 518749,
+                "overall_alignment_rate": 54.47
+            },
+            "SRR22293452_hisat2": {
+                "total_reads": 4194896,
+                "unpaired_total": 4194896,
+                "unpaired_aligned_none": 2066898,
+                "unpaired_aligned_one": 1672180,
+                "unpaired_aligned_multi": 455818,
+                "overall_alignment_rate": 50.73
+            },
+            "SRR22293453_hisat2": {
+                "total_reads": 6038305,
+                "unpaired_total": 6038305,
+                "unpaired_aligned_none": 3138951,
+                "unpaired_aligned_one": 2273349,
+                "unpaired_aligned_multi": 626005,
+                "overall_alignment_rate": 48.02
+            },
+            "SRR22293454_hisat2": {
+                "total_reads": 3802231,
+                "unpaired_total": 3802231,
+                "unpaired_aligned_none": 1925709,
+                "unpaired_aligned_one": 1506685,
+                "unpaired_aligned_multi": 369837,
+                "overall_alignment_rate": 49.35
+            },
+            "SRR22293455_hisat2": {
+                "total_reads": 4641782,
+                "unpaired_total": 4641782,
+                "unpaired_aligned_none": 2450877,
+                "unpaired_aligned_one": 1788489,
+                "unpaired_aligned_multi": 402416,
+                "overall_alignment_rate": 47.2
+            },
+            "SRR22293456_hisat2": {
+                "total_reads": 4610617,
+                "unpaired_total": 4610617,
+                "unpaired_aligned_none": 2299947,
+                "unpaired_aligned_one": 1872561,
+                "unpaired_aligned_multi": 438109,
+                "overall_alignment_rate": 50.12
+            },
+            "SRR22293457_hisat2": {
+                "total_reads": 4808411,
+                "unpaired_total": 4808411,
+                "unpaired_aligned_none": 2553510,
+                "unpaired_aligned_one": 1860624,
+                "unpaired_aligned_multi": 394277,
+                "overall_alignment_rate": 46.89
+            },
+            "SRR22293458_hisat2": {
+                "total_reads": 3559843,
+                "unpaired_total": 3559843,
+                "unpaired_aligned_none": 1425406,
+                "unpaired_aligned_one": 1042576,
+                "unpaired_aligned_multi": 1091861,
+                "overall_alignment_rate": 59.96
+            },
+            "SRR22293459_hisat2": {
+                "total_reads": 3453116,
+                "unpaired_total": 3453116,
+                "unpaired_aligned_none": 1512408,
+                "unpaired_aligned_one": 924969,
+                "unpaired_aligned_multi": 1015739,
+                "overall_alignment_rate": 56.2
+            },
+            "SRR22293460_hisat2": {
+                "total_reads": 4273390,
+                "unpaired_total": 4273390,
+                "unpaired_aligned_none": 2013962,
+                "unpaired_aligned_one": 1175521,
+                "unpaired_aligned_multi": 1083907,
+                "overall_alignment_rate": 52.87
+            },
+            "SRR22293461_hisat2": {
+                "total_reads": 5078534,
+                "unpaired_total": 5078534,
+                "unpaired_aligned_none": 2065927,
+                "unpaired_aligned_one": 1614242,
+                "unpaired_aligned_multi": 1398365,
+                "overall_alignment_rate": 59.32
+            },
+            "SRR22293462_hisat2": {
+                "total_reads": 4946648,
+                "unpaired_total": 4946648,
+                "unpaired_aligned_none": 1804148,
+                "unpaired_aligned_one": 1591579,
+                "unpaired_aligned_multi": 1550921,
+                "overall_alignment_rate": 63.53
+            },
+            "SRR22293463_hisat2": {
+                "total_reads": 5005918,
+                "unpaired_total": 5005918,
+                "unpaired_aligned_none": 2026993,
+                "unpaired_aligned_one": 1457601,
+                "unpaired_aligned_multi": 1521324,
+                "overall_alignment_rate": 59.51
+            },
+            "SRR22293464_hisat2": {
+                "total_reads": 4415139,
+                "unpaired_total": 4415139,
+                "unpaired_aligned_none": 1949256,
+                "unpaired_aligned_one": 1938718,
+                "unpaired_aligned_multi": 527165,
+                "overall_alignment_rate": 55.85
+            },
+            "SRR22293465_hisat2": {
+                "total_reads": 4252358,
+                "unpaired_total": 4252358,
+                "unpaired_aligned_none": 1896434,
+                "unpaired_aligned_one": 1304724,
+                "unpaired_aligned_multi": 1051200,
+                "overall_alignment_rate": 55.4
+            },
+            "SRR22293466_hisat2": {
+                "total_reads": 4057808,
+                "unpaired_total": 4057808,
+                "unpaired_aligned_none": 1769348,
+                "unpaired_aligned_one": 1893170,
+                "unpaired_aligned_multi": 395290,
+                "overall_alignment_rate": 56.4
+            },
+            "SRR22293467_hisat2": {
+                "total_reads": 3882595,
+                "unpaired_total": 3882595,
+                "unpaired_aligned_none": 1924552,
+                "unpaired_aligned_one": 1540103,
+                "unpaired_aligned_multi": 417940,
+                "overall_alignment_rate": 50.43
+            },
+            "SRR22293468_hisat2": {
+                "total_reads": 3846188,
+                "unpaired_total": 3846188,
+                "unpaired_aligned_none": 1632356,
+                "unpaired_aligned_one": 1670698,
+                "unpaired_aligned_multi": 543134,
+                "overall_alignment_rate": 57.56
+            },
+            "SRR22293469_hisat2": {
+                "total_reads": 3288217,
+                "unpaired_total": 3288217,
+                "unpaired_aligned_none": 1234921,
+                "unpaired_aligned_one": 1683551,
+                "unpaired_aligned_multi": 369745,
+                "overall_alignment_rate": 62.44
+            },
+            "SRR22293470_hisat2": {
+                "total_reads": 4315278,
+                "unpaired_total": 4315278,
+                "unpaired_aligned_none": 1744512,
+                "unpaired_aligned_one": 2086726,
+                "unpaired_aligned_multi": 484040,
+                "overall_alignment_rate": 59.57
+            },
+            "SRR22293471_hisat2": {
+                "total_reads": 4632102,
+                "unpaired_total": 4632102,
+                "unpaired_aligned_none": 2110244,
+                "unpaired_aligned_one": 1358035,
+                "unpaired_aligned_multi": 1163823,
+                "overall_alignment_rate": 54.44
+            },
+            "SRR22293472_hisat2": {
+                "total_reads": 4227006,
+                "unpaired_total": 4227006,
+                "unpaired_aligned_none": 1649698,
+                "unpaired_aligned_one": 2094524,
+                "unpaired_aligned_multi": 482784,
+                "overall_alignment_rate": 60.97
+            },
+            "SRR22293473_hisat2": {
+                "total_reads": 4190874,
+                "unpaired_total": 4190874,
+                "unpaired_aligned_none": 2227900,
+                "unpaired_aligned_one": 854124,
+                "unpaired_aligned_multi": 1108850,
+                "overall_alignment_rate": 46.84
+            },
+            "SRR22293474_hisat2": {
+                "total_reads": 3720265,
+                "unpaired_total": 3720265,
+                "unpaired_aligned_none": 1646140,
+                "unpaired_aligned_one": 1699069,
+                "unpaired_aligned_multi": 375056,
+                "overall_alignment_rate": 55.75
+            },
+            "SRR22293475_hisat2": {
+                "total_reads": 5374071,
+                "unpaired_total": 5374071,
+                "unpaired_aligned_none": 2418684,
+                "unpaired_aligned_one": 2258593,
+                "unpaired_aligned_multi": 696794,
+                "overall_alignment_rate": 54.99
+            },
+            "SRR22293476_hisat2": {
+                "total_reads": 4366753,
+                "unpaired_total": 4366753,
+                "unpaired_aligned_none": 2002506,
+                "unpaired_aligned_one": 1742929,
+                "unpaired_aligned_multi": 621318,
+                "overall_alignment_rate": 54.14
+            },
+            "SRR22293477_hisat2": {
+                "total_reads": 4941944,
+                "unpaired_total": 4941944,
+                "unpaired_aligned_none": 2104836,
+                "unpaired_aligned_one": 2097075,
+                "unpaired_aligned_multi": 740033,
+                "overall_alignment_rate": 57.41
+            },
+            "SRR22293478_hisat2": {
+                "total_reads": 3703427,
+                "unpaired_total": 3703427,
+                "unpaired_aligned_none": 1605092,
+                "unpaired_aligned_one": 1609805,
+                "unpaired_aligned_multi": 488530,
+                "overall_alignment_rate": 56.66
+            },
+            "SRR22293479_hisat2": {
+                "total_reads": 5039616,
+                "unpaired_total": 5039616,
+                "unpaired_aligned_none": 2124554,
+                "unpaired_aligned_one": 2216857,
+                "unpaired_aligned_multi": 698205,
+                "overall_alignment_rate": 57.84
+            },
+            "SRR22293480_hisat2": {
+                "total_reads": 4333042,
+                "unpaired_total": 4333042,
+                "unpaired_aligned_none": 1873991,
+                "unpaired_aligned_one": 1241890,
+                "unpaired_aligned_multi": 1217161,
+                "overall_alignment_rate": 56.75
+            },
+            "SRR22293481_hisat2": {
+                "total_reads": 3660011,
+                "unpaired_total": 3660011,
+                "unpaired_aligned_none": 1500348,
+                "unpaired_aligned_one": 1628168,
+                "unpaired_aligned_multi": 531495,
+                "overall_alignment_rate": 59.01
+            },
+            "SRR22293482_hisat2": {
+                "total_reads": 4465781,
+                "unpaired_total": 4465781,
+                "unpaired_aligned_none": 2193125,
+                "unpaired_aligned_one": 1254349,
+                "unpaired_aligned_multi": 1018307,
+                "overall_alignment_rate": 50.89
+            },
+            "SRR22293483_hisat2": {
+                "total_reads": 4595922,
+                "unpaired_total": 4595922,
+                "unpaired_aligned_none": 2314483,
+                "unpaired_aligned_one": 1147159,
+                "unpaired_aligned_multi": 1134280,
+                "overall_alignment_rate": 49.64
+            }
+        },
+        "multiqc_general_stats": {
+            "SRR14864064_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 62.33
+            },
+            "SRR14864065_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 63.93
+            },
+            "SRR14864066_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 46.95
+            },
+            "SRR14864067_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 71.46
+            },
+            "SRR14864068_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 70.54
+            },
+            "SRR14864069_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 78.31
+            },
+            "SRR14864070_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 80.5
+            },
+            "SRR14864071_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 79.43
+            },
+            "SRR14864072_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 71.73
+            },
+            "SRR22293445_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 56.72
+            },
+            "SRR22293446_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 54.34
+            },
+            "SRR22293447_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 58.02
+            },
+            "SRR22293448_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 61.8
+            },
+            "SRR22293449_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 57.61
+            },
+            "SRR22293450_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 58.45
+            },
+            "SRR22293451_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 54.47
+            },
+            "SRR22293452_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 50.73
+            },
+            "SRR22293453_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 48.02
+            },
+            "SRR22293454_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 49.35
+            },
+            "SRR22293455_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 47.2
+            },
+            "SRR22293456_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 50.12
+            },
+            "SRR22293457_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 46.89
+            },
+            "SRR22293458_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 59.96
+            },
+            "SRR22293459_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 56.2
+            },
+            "SRR22293460_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 52.87
+            },
+            "SRR22293461_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 59.32
+            },
+            "SRR22293462_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 63.53
+            },
+            "SRR22293463_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 59.51
+            },
+            "SRR22293464_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 55.85
+            },
+            "SRR22293465_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 55.4
+            },
+            "SRR22293466_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 56.4
+            },
+            "SRR22293467_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 50.43
+            },
+            "SRR22293468_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 57.56
+            },
+            "SRR22293469_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 62.44
+            },
+            "SRR22293470_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 59.57
+            },
+            "SRR22293471_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 54.44
+            },
+            "SRR22293472_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 60.97
+            },
+            "SRR22293473_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 46.84
+            },
+            "SRR22293474_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 55.75
+            },
+            "SRR22293475_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 54.99
+            },
+            "SRR22293476_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 54.14
+            },
+            "SRR22293477_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 57.41
+            },
+            "SRR22293478_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 56.66
+            },
+            "SRR22293479_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 57.84
+            },
+            "SRR22293480_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 56.75
+            },
+            "SRR22293481_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 59.01
+            },
+            "SRR22293482_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 50.89
+            },
+            "SRR22293483_hisat2": {
+                "bowtie_2_hisat2-overall_alignment_rate": 49.64
+            }
+        }
+    }
+}

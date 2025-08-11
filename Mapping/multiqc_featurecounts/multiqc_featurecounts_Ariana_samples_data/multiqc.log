@@ -1,0 +1,75 @@
+[2025-08-11 09:23:54,481] root                                               [DEBUG  ]  Logging to file: /tmp/tmpe6wwc9to/multiqc.log
+[2025-08-11 09:23:54,482] multiqc.core.update_config                         [DEBUG  ]  This is MultiQC v1.29
+[2025-08-11 09:23:54,482] multiqc.core.update_config                         [DEBUG  ]  Running Python 3.13.3 | packaged by conda-forge | (main, Apr 14 2025, 20:44:03) [GCC 13.3.0]
+[2025-08-11 09:23:54,484] multiqc.core.update_config                         [INFO   ]  Report title: Ariana_samples — featureCounts (PE+SE, s0)
+[2025-08-11 09:23:54,488] urllib3.connectionpool                             [DEBUG  ]  Starting new HTTPS connection (1): api.multiqc.info:443
+[2025-08-11 09:23:54,914] urllib3.connectionpool                             [DEBUG  ]  https://api.multiqc.info:443 "GET /version?version_multiqc=1.29&version_python=3.13.3&operating_system=Linux&is_docker=False&is_singularity=False&is_conda=True&is_ci=False&is_notebook=False&ai_summary=False&ai_summary_full=False&ai_provider=seqera HTTP/1.1" 200 178
+[2025-08-11 09:23:54,914] multiqc.core.version_check                         [WARNING]  MultiQC Version v1.30 now available!
+[2025-08-11 09:23:54,914] multiqc.core.version_check                         [DEBUG  ]  Latest MultiQC version is v1.30, released 2025-07-09
+[2025-08-11 09:23:54,915] multiqc.multiqc                                    [DEBUG  ]  Working dir : /lustre1/home/mass/amalia/montipora_mapping/Ariana_samples
+[2025-08-11 09:23:54,915] multiqc.multiqc                                    [DEBUG  ]  Template    : default
+[2025-08-11 09:23:54,915] multiqc.multiqc                                    [DEBUG  ]  Command used: /lustre1/home/mass/amalia/.conda/envs/Mcap/bin/multiqc logs/featurecounts counts/counts_pe.txt.summary counts/counts_se_s0.txt.summary counts/counts_se.txt.summary -m featurecounts -o outputs/multiqc_featurecounts -n multiqc_featurecounts_Ariana_samples.html --title Ariana_samples — featureCounts (PE+SE, s0) --force
+[2025-08-11 09:23:54,915] multiqc.core.file_search                           [INFO   ]  Search path: /lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/logs/featurecounts
+[2025-08-11 09:23:54,915] multiqc.core.file_search                           [INFO   ]  Search path: /lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/counts/counts_pe.txt.summary
+[2025-08-11 09:23:54,915] multiqc.core.file_search                           [INFO   ]  Search path: /lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/counts/counts_se_s0.txt.summary
+[2025-08-11 09:23:54,915] multiqc.core.file_search                           [INFO   ]  Search path: /lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/counts/counts_se.txt.summary
+[2025-08-11 09:23:54,915] multiqc.core.file_search                           [INFO   ]  Only using modules: featurecounts
+[2025-08-11 09:23:54,915] multiqc.core.file_search                           [DEBUG  ]  Analysing modules: featurecounts
+[2025-08-11 09:23:54,915] multiqc.core.file_search                           [DEBUG  ]  Search keys: featurecounts, multiqc_data, software_versions
+[2025-08-11 09:23:54,916] multiqc.report                                     [DEBUG  ]  Ignored 359 search patterns that didn't match running modules
+[2025-08-11 09:23:54,929] multiqc.report                                     [DEBUG  ]  Summary of files that were skipped by the search: |skipped_no_match: 8|
+[2025-08-11 09:23:54,929] multiqc.core.exec_modules                          [DEBUG  ]  Running module: featurecounts
+[2025-08-11 09:23:54,940] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293445
+[2025-08-11 09:23:54,940] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293446
+[2025-08-11 09:23:54,940] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293447
+[2025-08-11 09:23:54,940] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293448
+[2025-08-11 09:23:54,941] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293449
+[2025-08-11 09:23:54,941] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293450
+[2025-08-11 09:23:54,941] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293451
+[2025-08-11 09:23:54,941] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293452
+[2025-08-11 09:23:54,941] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293453
+[2025-08-11 09:23:54,941] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293454
+[2025-08-11 09:23:54,941] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293455
+[2025-08-11 09:23:54,941] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293456
+[2025-08-11 09:23:54,941] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293457
+[2025-08-11 09:23:54,941] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293458
+[2025-08-11 09:23:54,941] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293459
+[2025-08-11 09:23:54,941] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293460
+[2025-08-11 09:23:54,941] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293461
+[2025-08-11 09:23:54,941] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293462
+[2025-08-11 09:23:54,942] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293463
+[2025-08-11 09:23:54,942] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293464
+[2025-08-11 09:23:54,942] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293465
+[2025-08-11 09:23:54,942] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293466
+[2025-08-11 09:23:54,942] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293467
+[2025-08-11 09:23:54,942] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293468
+[2025-08-11 09:23:54,942] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293469
+[2025-08-11 09:23:54,942] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293470
+[2025-08-11 09:23:54,942] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293471
+[2025-08-11 09:23:54,942] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293472
+[2025-08-11 09:23:54,942] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293473
+[2025-08-11 09:23:54,942] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293474
+[2025-08-11 09:23:54,942] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293475
+[2025-08-11 09:23:54,942] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293476
+[2025-08-11 09:23:54,943] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293477
+[2025-08-11 09:23:54,943] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293478
+[2025-08-11 09:23:54,943] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293479
+[2025-08-11 09:23:54,943] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293480
+[2025-08-11 09:23:54,943] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293481
+[2025-08-11 09:23:54,943] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293482
+[2025-08-11 09:23:54,943] multiqc.modules.featurecounts.featurecounts        [DEBUG  ]  Duplicate sample name found! Overwriting: SRR22293483
+[2025-08-11 09:23:54,943] multiqc.modules.featurecounts.featurecounts        [INFO   ]  Found 48 reports
+[2025-08-11 09:23:54,943] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_featurecounts.txt
+[2025-08-11 09:23:54,944] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_featurecounts.json
+[2025-08-11 09:23:58,464] multiqc.core.software_versions                     [DEBUG  ]  Reading software versions from config.software_versions
+[2025-08-11 09:23:58,467] multiqc.core.file_search                           [INFO   ]  Only using modules: featurecounts
+[2025-08-11 09:23:58,467] multiqc.core.write_results                         [DEBUG  ]  Rendering plots
+[2025-08-11 09:23:59,435] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_general_stats.txt
+[2025-08-11 09:23:59,435] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_general_stats.json
+[2025-08-11 09:23:59,442] multiqc.core.write_results                         [DEBUG  ]  Exporting plot data to files
+[2025-08-11 09:23:59,442] multiqc.report                                     [DEBUG  ]  Wrote data file featureCounts_assignment_plot.txt
+[2025-08-11 09:23:59,442] multiqc.core.write_results                         [DEBUG  ]  Moving data file from '/tmp/tmpe6wwc9to/multiqc_data' to '/lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/outputs/multiqc_featurecounts/multiqc_featurecounts_Ariana_samples_data'
+[2025-08-11 09:23:59,525] multiqc.core.write_results                         [INFO   ]  Data        : outputs/multiqc_featurecounts/multiqc_featurecounts_Ariana_samples_data
+[2025-08-11 09:23:59,808] multiqc.core.write_results                         [DEBUG  ]  Compressing plot data
+[2025-08-11 09:23:59,895] multiqc.core.write_results                         [INFO   ]  Report      : outputs/multiqc_featurecounts/multiqc_featurecounts_Ariana_samples.html
+[2025-08-11 09:23:59,895] multiqc.core.write_results                         [DEBUG  ]  Report HTML written to /lustre1/home/mass/amalia/montipora_mapping/Ariana_samples/outputs/multiqc_featurecounts/multiqc_featurecounts_Ariana_samples.html
